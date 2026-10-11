@@ -1,0 +1,12 @@
+NOTE: This is only a simulation!
+      apt-get needs root privileges for real execution.
+      Keep also in mind that locking is deactivated,
+      so don't depend on the relevance to the real current situation!
+Reading package lists...
+Building dependency tree...
+Reading state information...
+filelight is already the newest version (4:23.08.5-0ubuntu3).
+The following package was automatically installed and is no longer required:
+  libfwupd2
+Use 'apt autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 9 not upgraded.

@@ -1,0 +1,7 @@
+$ filelight
+QSocketNotifier: Can only be used with threads started with QThread
+QQmlComponent: Component is not ready
+file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml:914: Error: Error while loading page: qrc:/ui/MapPage.qml:9 module "QtQuick.Shapes" is not installed
+qrc:/ui/MapPage.qml:8 module "org.kde.kcoreaddons" is not installed
+qrc:/ui/MapPage.qml:9 module "QtQuick.Shapes" is not installed
+qrc:/ui/MapPage.qml:8 module "org.kde.kcoreaddons" is not installed

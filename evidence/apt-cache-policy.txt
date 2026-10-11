@@ -1,0 +1,21 @@
+filelight:
+  Installed: 4:23.08.5-0ubuntu3
+  Candidate: 4:23.08.5-0ubuntu3
+  Version table:
+ *** 4:23.08.5-0ubuntu3 500
+        500 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+        100 /var/lib/dpkg/status
+qml-module-qtquick-shapes:
+  Installed: (none)
+  Candidate: 5.15.13+dfsg-1ubuntu0.1
+  Version table:
+     5.15.13+dfsg-1ubuntu0.1 500
+        500 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages
+     5.15.13+dfsg-1 500
+        500 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+qml-module-org-kde-kcoreaddons:
+  Installed: (none)
+  Candidate: 5.115.0-0ubuntu5
+  Version table:
+     5.115.0-0ubuntu5 500
+        500 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages

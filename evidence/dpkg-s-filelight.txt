@@ -1,0 +1,20 @@
+Package: filelight
+Status: install ok installed
+Priority: optional
+Section: kde
+Installed-Size: 1633
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Architecture: amd64
+Version: 4:23.08.5-0ubuntu3
+Depends: qml-module-org-kde-kirigami2, qml-module-org-kde-qqc2desktopstyle, qml-module-org-kde-quickcharts, qml-module-qt-labs-platform, kio, libc6 (>= 2.34), libkf5configcore5 (>= 5.69.0), libkf5coreaddons5 (>= 5.96.0), libkf5i18n5 (>= 5.98.0~), libkf5kiocore5 (>= 5.100.0), libkf5kiogui5 (>= 5.98.0~), libkf5kiowidgets5 (>= 5.98.0~), libkf5widgetsaddons5 (>= 4.96.0), libkf5xmlgui5 (>= 5.98.0~), libqt5core5t64 (>= 5.15.2~), libqt5gui5t64 (>= 5.15.2~) | libqt5gui5-gles (>= 5.15.2~), libqt5qml5 (>= 5.15.2~), libqt5quick5 (>= 5.15.2~) | libqt5quick5-gles (>= 5.15.2~), libqt5quickcontrols2-5 (>= 5.15.2~), libqt5widgets5t64 (>= 5.15.2~), libstdc++6 (>= 9)
+Conffiles:
+ /etc/xdg/filelightrc 345c9efb26ab3d3bcf6b21ab070570e2
+Description: show where your diskspace is being used
+ Filelight allows you to understand your disk usage by graphically
+ representing your filesystem as a set of concentric, segmented rings.
+ .
+ It is like a pie-chart, but the segments nest, allowing you to see both
+ which directories take up all your space, and which directories
+ and files inside those directories are the real culprits.
+Homepage: https://apps.kde.org/en/filelight
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>

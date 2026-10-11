@@ -1,0 +1,9 @@
+MISSING  QtQuick/Shapes
+OK       QtQuick/Controls.2           qml-module-qtquick-controls2
+OK       QtQuick/Layouts              qml-module-qtquick-layouts
+OK       QtQuick/Window.2             qml-module-qtquick-window2
+OK       Qt/labs/platform             qml-module-qt-labs-platform
+OK       org/kde/kirigami.2           qml-module-org-kde-kirigami2
+MISSING  org/kde/kcoreaddons
+OK       org/kde/quickcharts          qml-module-org-kde-quickcharts
+OK       org/kde/qqc2desktopstyle     
