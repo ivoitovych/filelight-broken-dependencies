@@ -1,0 +1,10 @@
+@KCOREADDONS_QML_NAME@ 1.0
+org.kde.filelight 1.0
+org.kde.kirigami 2.19
+org.kde.quickcharts 1.0
+Qt.labs.platform 1.1
+QtQuick 2.15
+QtQuick.Controls 2.15
+QtQuick.Layouts 1.15
+QtQuick.Shapes 1.15
+QtQuick.Window 2.15

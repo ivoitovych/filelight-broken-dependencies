@@ -1,0 +1,60 @@
+src/qml/CenterShape.qml:4:import QtQuick 2.15
+src/qml/CenterShape.qml:5:import QtQuick.Layouts 1.15
+src/qml/CenterShape.qml:6:import QtQuick.Controls 2.15 as QQC2
+src/qml/CenterShape.qml:7:import org.kde.kirigami 2.19 as Kirigami
+src/qml/CenterShape.qml:8:import @KCOREADDONS_QML_NAME@ 1.0 as KCoreAddons
+src/qml/CenterShape.qml:9:import QtQuick.Shapes 1.15
+src/qml/CenterShape.qml:11:import org.kde.filelight 1.0
+src/qml/ActionMenuItem.qml:4:import QtQuick 2.15
+src/qml/ActionMenuItem.qml:5:import Qt.labs.platform 1.1 as Platform
+src/qml/AboutPage.qml:4:import QtQuick 2.15
+src/qml/AboutPage.qml:5:import QtQuick.Layouts 1.15
+src/qml/AboutPage.qml:6:import QtQuick.Controls 2.15 as QQC2
+src/qml/AboutPage.qml:7:import org.kde.kirigami 2.19 as Kirigami
+src/qml/AboutPage.qml:9:import org.kde.filelight 1.0
+src/qml/Action.qml:4:import QtQuick 2.15
+src/qml/Action.qml:5:import org.kde.kirigami 2.19 as Kirigami
+src/qml/main.qml:4:import QtQuick 2.15
+src/qml/main.qml:5:import QtQuick.Layouts 1.15
+src/qml/main.qml:6:import QtQuick.Controls 2.15 as QQC2
+src/qml/main.qml:7:import org.kde.kirigami 2.19 as Kirigami
+src/qml/main.qml:9:import org.kde.filelight 1.0
+src/qml/MapPage.qml:4:import QtQuick 2.15
+src/qml/MapPage.qml:5:import QtQuick.Layouts 1.15
+src/qml/MapPage.qml:6:import QtQuick.Controls 2.15 as QQC2
+src/qml/MapPage.qml:7:import org.kde.kirigami 2.19 as Kirigami
+src/qml/MapPage.qml:8:import @KCOREADDONS_QML_NAME@ 1.0 as KCoreAddons
+src/qml/MapPage.qml:9:import QtQuick.Shapes 1.15
+src/qml/MapPage.qml:11:import org.kde.filelight 1.0
+src/qml/OverviewPage.qml:4:import QtQuick 2.15
+src/qml/OverviewPage.qml:5:import QtQuick.Layouts 1.15
+src/qml/OverviewPage.qml:6:import QtQuick.Controls 2.15 as QQC2
+src/qml/OverviewPage.qml:7:import org.kde.kirigami 2.19 as Kirigami
+src/qml/OverviewPage.qml:8:import org.kde.quickcharts 1.0 as Charts
+src/qml/OverviewPage.qml:10:import org.kde.filelight 1.0
+src/qml/SettingsPageAppearance.qml:4:import QtQuick 2.15
+src/qml/SettingsPageAppearance.qml:5:import QtQuick.Layouts 1.15
+src/qml/SettingsPageAppearance.qml:6:import QtQuick.Controls 2.15 as QQC2
+src/qml/SettingsPageAppearance.qml:7:import org.kde.kirigami 2.19 as Kirigami
+src/qml/SettingsPageAppearance.qml:9:import org.kde.filelight 1.0
+src/qml/SettingsPage.qml:4:import QtQuick 2.15
+src/qml/SettingsPage.qml:5:import QtQuick.Layouts 1.15
+src/qml/SettingsPage.qml:6:import QtQuick.Controls 2.15 as QQC2
+src/qml/SettingsPage.qml:7:import org.kde.kirigami 2.19 as Kirigami
+src/qml/SettingsPage.qml:8:import QtQuick.Window 2.15
+src/qml/SettingsPage.qml:10:import org.kde.filelight 1.0
+src/qml/GlobalMenu.qml:4:import QtQuick 2.15
+src/qml/GlobalMenu.qml:5:import Qt.labs.platform 1.1 as Platform
+src/qml/GlobalMenu.qml:6:import org.kde.kirigami 2.19 as Kirigami
+src/qml/SettingsPageScanning.qml:4:import QtQuick 2.15
+src/qml/SettingsPageScanning.qml:5:import QtQuick.Layouts 1.15
+src/qml/SettingsPageScanning.qml:6:import QtQuick.Controls 2.15 as QQC2
+src/qml/SettingsPageScanning.qml:7:import org.kde.kirigami 2.19 as Kirigami
+src/qml/SettingsPageScanning.qml:9:import org.kde.filelight 1.0
+src/qml/SegmentShape.qml:4:import QtQuick 2.15
+src/qml/SegmentShape.qml:5:import QtQuick.Layouts 1.15
+src/qml/SegmentShape.qml:6:import QtQuick.Controls 2.15 as QQC2
+src/qml/SegmentShape.qml:7:import org.kde.kirigami 2.19 as Kirigami
+src/qml/SegmentShape.qml:8:import @KCOREADDONS_QML_NAME@ 1.0 as KCoreAddons
+src/qml/SegmentShape.qml:9:import QtQuick.Shapes 1.15
+src/qml/SegmentShape.qml:11:import org.kde.filelight 1.0

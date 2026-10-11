@@ -1,0 +1,49 @@
+src/Config.cpp:13:#include <KLocalizedString>
+src/Config.cpp:15:#include <KSharedConfig>
+src/Config.cpp:18:#include <QFileDialog>
+src/Config.cpp:23:    const KConfigGroup config = KSharedConfig::openConfig()->group("filelight_part");
+src/Config.cpp:37:    KConfigGroup config = KSharedConfig::openConfig()->group("filelight_part");
+src/Config.cpp:58:    const QString urlString = QFileDialog::getExistingDirectory(nullptr, i18n("Select path to ignore"), QDir::rootPath());
+src/contextMenuContext.cpp:11:#include <KLocalizedString>
+src/contextMenuContext.cpp:84:    auto job = KIO::del(url);
+src/fileTree.h:13:#include <KFormat>
+src/fileTree.h:95:        return KFormat().formatByteSize(m_size);
+src/historyAction.cpp:13:#include <KLocalizedString>
+src/historyAction.cpp:63:          QIcon::fromTheme(QGuiApplication::layoutDirection() == Qt::LeftToRight ? QStringLiteral("go-previous") : QStringLiteral("go-previous-symbolic-rtl")),
+src/historyAction.cpp:67:          QIcon::fromTheme(QGuiApplication::layoutDirection() == Qt::LeftToRight ? QStringLiteral("go-next") : QStringLiteral("go-next-symbolic-rtl")),
+src/mainContext.cpp:109:         !QStandardPaths::locate(QStandardPaths::RuntimeLocation, QStringLiteral("flatpak-info")).isEmpty() || qEnvironmentVariableIsSet("SNAP")},
+src/mainContext.cpp:11:#include <KAboutData>
+src/mainContext.cpp:14:#include <KLocalizedString>
+src/mainContext.cpp:163:    slotScanUrl(QFileDialog::getExistingDirectoryUrl(nullptr, i18n("Select Folder to Scan"), url()));
+src/mainContext.cpp:179:    auto upUrl = KIO::upUrl(downUrl);
+src/mainContext.cpp:18:#include <QFileDialog>
+src/mainContext.cpp:21:#include <QStandardPaths>
+src/mainContext.cpp:38:    Q_PROPERTY(KAboutData data READ data CONSTANT)
+src/mainContext.cpp:39:    [[nodiscard]] static KAboutData data()
+src/mainContext.cpp:41:        return KAboutData::applicationData();
+src/mainContext.cpp:61:    l10nContext->setTranslationDomain(QStringLiteral(TRANSLATION_DOMAIN));
+src/mainContext.cpp:64:    qmlRegisterUncreatableMetaObject(Filelight::staticMetaObject, "org.kde.filelight", 1, 0, "Filelight", QStringLiteral("Access to enums & flags only"));
+src/mainContext.cpp:68:    qmlRegisterType<DropperItem>("org.kde.filelight", 1, 0, "DropperItem");
+src/mainContext.cpp:69:    qmlRegisterSingletonInstance("org.kde.filelight", 1, 0, "About", about);
+src/mainContext.cpp:70:    qmlRegisterSingletonInstance("org.kde.filelight", 1, 0, "ScanManager", m_manager);
+src/mainContext.cpp:71:    qmlRegisterSingletonInstance("org.kde.filelight", 1, 0, "MainContext", this);
+src/mainContext.cpp:73:    qmlRegisterSingletonInstance("org.kde.filelight", 1, 0, "FileModel", fileModel);
+src/mainContext.cpp:76:    qmlRegisterSingletonInstance("org.kde.filelight", 1, 0, "ContextMenuContext", contextMenuContext);
+src/mainContext.cpp:77:    qmlRegisterUncreatableType<RadialMap::Segment>("org.kde.filelight", 1, 0, "Segment", QStringLiteral("only consumed, never created"));
+src/mainContext.cpp:81:    qmlRegisterSingletonType<RadialMap::Map>("org.kde.filelight", 1, 0, "RadialMap", [](QQmlEngine *engine, QJSEngine *scriptEngine) -> QObject * {
+src/mainContext.cpp:87:    qmlRegisterSingletonType<Config>("org.kde.filelight", 1, 0, "Config", [](QQmlEngine *engine, QJSEngine *scriptEngine) -> QObject * {
+src/main.cpp:22:#include <KAboutData>
+src/main.cpp:24:#include <KLocalizedString>
+src/main.cpp:25:#include <KSharedConfig>
+src/main.cpp:43:    const QString cachePath = QStandardPaths::writableLocation(QStandardPaths::CacheLocation);
+src/main.cpp:61:        QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
+src/main.cpp:64:    KLocalizedString::setApplicationDomain("filelight");
+src/main.cpp:65:    auto config = KSharedConfig::openConfig();
+src/main.cpp:66:    auto stateConfig = KSharedConfig::openStateConfig();
+src/main.cpp:73:    KAboutData about(QStringLiteral(APP_NAME),
+src/main.cpp:92:    KAboutData::setApplicationData(about);
+src/main.cpp:94:    app.setWindowIcon(QIcon::fromTheme(QStringLiteral(APP_NAME)));
+src/radialMap/map.cpp:25:#include <KColorScheme>
+src/radialMap/map.cpp:26:#include <KLocalizedString>
+src/radialMap/map.cpp:59:                                       KFormat().formatByteSize(totalSize / fileCount));
+src/remoteLister.cpp:73:    // Use SIGNAL(result(KIO::Job*)) instead and then use Job::error()
