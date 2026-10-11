@@ -1,0 +1,2 @@
+# raw strace dumps are multi-MB; filtered/summary files are kept
+analysis/**/*.raw

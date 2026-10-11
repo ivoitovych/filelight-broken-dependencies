@@ -1,0 +1,1433 @@
+Disabling QML cache because of low disk space
+QFactoryLoader::QFactoryLoader() checking directory path "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms" ...
+QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqeglfs.so"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqeglfs.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "eglfs"
+        ]
+    },
+    "archreq": 0,
+    "className": "QEglFSIntegrationPlugin",
+    "debug": false,
+    "version": 331520
+}
+
+
+Got keys from plugin meta data ("eglfs")
+QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqlinuxfb.so"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqlinuxfb.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "linuxfb"
+        ]
+    },
+    "archreq": 0,
+    "className": "QLinuxFbIntegrationPlugin",
+    "debug": false,
+    "version": 331520
+}
+
+
+Got keys from plugin meta data ("linuxfb")
+QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqminimal.so"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqminimal.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "minimal"
+        ]
+    },
+    "archreq": 0,
+    "className": "QMinimalIntegrationPlugin",
+    "debug": false,
+    "version": 331520
+}
+
+
+Got keys from plugin meta data ("minimal")
+QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqminimalegl.so"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqminimalegl.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "minimalegl"
+        ]
+    },
+    "archreq": 0,
+    "className": "QMinimalEglIntegrationPlugin",
+    "debug": false,
+    "version": 331520
+}
+
+
+Got keys from plugin meta data ("minimalegl")
+QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqoffscreen.so"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqoffscreen.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "offscreen"
+        ]
+    },
+    "archreq": 0,
+    "className": "QOffscreenIntegrationPlugin",
+    "debug": false,
+    "version": 331520
+}
+
+
+Got keys from plugin meta data ("offscreen")
+QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqvnc.so"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqvnc.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "vnc"
+        ]
+    },
+    "archreq": 0,
+    "className": "QVncIntegrationPlugin",
+    "debug": false,
+    "version": 331520
+}
+
+
+Got keys from plugin meta data ("vnc")
+QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqwayland-egl.so"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqwayland-egl.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "wayland-egl"
+        ]
+    },
+    "archreq": 0,
+    "className": "QWaylandEglPlatformIntegrationPlugin",
+    "debug": false,
+    "version": 331520
+}
+
+
+Got keys from plugin meta data ("wayland-egl")
+QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqwayland-generic.so"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqwayland-generic.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "wayland"
+        ]
+    },
+    "archreq": 0,
+    "className": "QWaylandIntegrationPlugin",
+    "debug": false,
+    "version": 331520
+}
+
+
+Got keys from plugin meta data ("wayland")
+QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqwayland-xcomposite-egl.so"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqwayland-xcomposite-egl.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "wayland-xcomposite-egl"
+        ]
+    },
+    "archreq": 0,
+    "className": "QWaylandXCompositeEglPlatformIntegrationPlugin",
+    "debug": false,
+    "version": 331520
+}
+
+
+Got keys from plugin meta data ("wayland-xcomposite-egl")
+QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqwayland-xcomposite-glx.so"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqwayland-xcomposite-glx.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "wayland-xcomposite-glx"
+        ]
+    },
+    "archreq": 0,
+    "className": "QWaylandXCompositeGlxPlatformIntegrationPlugin",
+    "debug": false,
+    "version": 331520
+}
+
+
+Got keys from plugin meta data ("wayland-xcomposite-glx")
+QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqxcb.so"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqxcb.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+    "MetaData": {
+        "Keys": [
+            "xcb"
+        ]
+    },
+    "archreq": 0,
+    "className": "QXcbIntegrationPlugin",
+    "debug": false,
+    "version": 331520
+}
+
+
+Got keys from plugin meta data ("xcb")
+QFactoryLoader::QFactoryLoader() checking directory path "/usr/bin/platforms" ...
+loaded library "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqoffscreen.so"
+QFactoryLoader::QFactoryLoader() checking directory path "/usr/lib/x86_64-linux-gnu/qt5/plugins/platformthemes" ...
+QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platformthemes/libqgtk3.so"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platformthemes/libqgtk3.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QPA.QPlatformThemeFactoryInterface.5.1",
+    "MetaData": {
+        "Keys": [
+            "gtk3"
+        ]
+    },
+    "archreq": 0,
+    "className": "QGtk3ThemePlugin",
+    "debug": false,
+    "version": 331520
+}
+
+
+Got keys from plugin meta data ("gtk3")
+QFactoryLoader::QFactoryLoader() checking directory path "/usr/bin/platformthemes" ...
+QFactoryLoader::QFactoryLoader() checking directory path "/usr/lib/x86_64-linux-gnu/qt5/plugins/iconengines" ...
+QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/iconengines/KIconEnginePlugin.so"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/iconengines/KIconEnginePlugin.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QIconEngineFactoryInterface",
+    "MetaData": {
+        "Keys": [
+            "KIconEngine"
+        ]
+    },
+    "archreq": 0,
+    "className": "KIconEnginePlugin",
+    "debug": false,
+    "version": 331520
+}
+
+
+Got keys from plugin meta data ("kiconengine")
+QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/iconengines/libqsvgicon.so"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/iconengines/libqsvgicon.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QIconEngineFactoryInterface",
+    "MetaData": {
+        "Keys": [
+            "svg",
+            "svgz",
+            "svg.gz"
+        ]
+    },
+    "archreq": 0,
+    "className": "QSvgIconPlugin",
+    "debug": false,
+    "version": 331520
+}
+
+
+Got keys from plugin meta data ("svg", "svgz", "svg.gz")
+QFactoryLoader::QFactoryLoader() checking directory path "/usr/bin/iconengines" ...
+kf.i18n: Loading the "qt_" catalog failed for locale QLocale(C, Default, Default)
+kf.crash: Could not find drkonqi in search paths: ("/usr/bin", "/usr/lib/x86_64-linux-gnu/qt5/libexec", "/usr/lib/x86_64-linux-gnu/libexec")
+QFactoryLoader::QFactoryLoader() checking directory path "/usr/lib/x86_64-linux-gnu/qt5/plugins/styles" ...
+QFactoryLoader::QFactoryLoader() checking directory path "/usr/bin/styles" ...
+QQmlImportDatabase::addImportPath: "/usr/lib/x86_64-linux-gnu/qt5/qml"
+QQmlImportDatabase::addImportPath: "qrc:/qt-project.org/imports"
+QQmlImportDatabase::addImportPath: "/usr/bin"
+QQmlImports(qrc:/ui/Action.qml)::addLibraryImport: "QtQuick" 2.15 as ""
+QQmlImports(qrc:/ui/Action.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/libqtquick2plugin.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QQmlExtensionInterface/1.0",
+    "archreq": 0,
+    "className": "QtQuick2Plugin",
+    "debug": false,
+    "uri": [
+        "QtQuick.2"
+    ],
+    "version": 331520
+}
+
+
+loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/libqtquick2plugin.so"
+QQmlImportDatabase::registerPluginTypes: "QtQuick" from "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2"
+QQmlImports(qrc:/ui/Action.qml)::addLibraryImport: "org.kde.kirigami" 2.19 as "Kirigami"
+QQmlImports(qrc:/ui/Action.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/libKirigamiPlugin.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QQmlExtensionInterface",
+    "archreq": 0,
+    "className": "KirigamiPlugin",
+    "debug": false,
+    "uri": [
+        "org.kde.kirigami"
+    ],
+    "version": 331520
+}
+
+
+loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/libKirigamiPlugin.so"
+QQmlImportDatabase::registerPluginTypes: "org.kde.kirigami" from "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2"
+QQmlImports(qrc:/ui/Action.qml)::resolveType: "Kirigami.Action" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Action.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Action.qml)::addLibraryImport: "QtQuick" 2.7 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Action.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Action.qml)::addLibraryImport: "QtQuick.Controls" 2.4 as "QQC2"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Action.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/libqtquickcontrols2plugin.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QQmlExtensionInterface/1.0",
+    "archreq": 0,
+    "className": "QtQuickControls2Plugin",
+    "debug": false,
+    "uri": [
+        "QtQuick.Controls.2"
+    ],
+    "version": 331520
+}
+
+
+loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/libqtquickcontrols2plugin.so"
+QQmlImportDatabase::registerPluginTypes: "QtQuick.Controls" from "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Action.qml)::addLibraryImport: "org.kde.kirigami" 2.14 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Action.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Action.qml)::resolveType: "QQC2.Action" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/Action.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/Action.qml)::addLibraryImport: "QtQuick" 2.12 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/Action.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/Action.qml)::addLibraryImport: "QtQuick.Templates" 2.12 as "T"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/Action.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/qmldir"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/libqtquicktemplates2plugin.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QQmlExtensionInterface/1.0",
+    "archreq": 0,
+    "className": "QtQuickTemplates2Plugin",
+    "debug": false,
+    "uri": [
+        "QtQuick.Templates.2"
+    ],
+    "version": 331520
+}
+
+
+loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/libqtquicktemplates2plugin.so"
+QQmlImportDatabase::registerPluginTypes: "QtQuick.Templates" from "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/Action.qml)::resolveType: "T.Action" => "QQuickAction" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/Action.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/Action.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Action.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Action.qml)::resolveType: "Component" => "QQmlComponent" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Action.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Action.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Action.qml)::resolveType: "QQC2.Action" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/Action.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Action.qml)::resolveType: "Component" => "QQmlComponent" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Action.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(qrc:/ui/Action.qml)::addImplicitImport
+QQmlImports(qrc:/ui/main.qml)::addLibraryImport: "QtQuick" 2.15 as ""
+QQmlImports(qrc:/ui/main.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(qrc:/ui/main.qml)::addLibraryImport: "QtQuick.Layouts" 1.15 as ""
+QQmlImports(qrc:/ui/main.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/qmldir"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/libqquicklayoutsplugin.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QQmlEngineExtensionInterface",
+    "archreq": 0,
+    "className": "QtQuickLayoutsPlugin",
+    "debug": false,
+    "uri": [
+        "QtQuick.Layouts"
+    ],
+    "version": 331520
+}
+
+
+loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/libqquicklayoutsplugin.so"
+QQmlImportDatabase::registerPluginTypes: "QtQuick.Layouts" from "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts"
+QQmlImports(qrc:/ui/main.qml)::addLibraryImport: "QtQuick.Controls" 2.15 as "QQC2"
+QQmlImports(qrc:/ui/main.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(qrc:/ui/main.qml)::addLibraryImport: "org.kde.kirigami" 2.19 as "Kirigami"
+QQmlImports(qrc:/ui/main.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(qrc:/ui/main.qml)::addLibraryImport: "org.kde.filelight" 1.0 as ""
+QQmlImports(qrc:/ui/main.qml)::resolveType: "Kirigami.ApplicationWindow" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ApplicationWindow.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ApplicationWindow.qml)::addLibraryImport: "QtQuick" 2.5 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ApplicationWindow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ApplicationWindow.qml)::addLibraryImport: "org.kde.kirigami" 2.4 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ApplicationWindow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ApplicationWindow.qml)::resolveType: "Component" => "QQmlComponent" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ApplicationWindow.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ApplicationWindow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ApplicationWindow.qml)::resolveType: "PageRow" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::addLibraryImport: "QtQuick" 2.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::addLibraryImport: "QtQuick.Layouts" 1.2 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::addLibraryImport: "QtQml.Models" 2.2 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/Models.2/qmldir"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/Models.2/libmodelsplugin.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QQmlEngineExtensionInterface",
+    "archreq": 0,
+    "className": "QtQmlModelsPlugin",
+    "debug": false,
+    "uri": [
+        "QtQml.Models.2"
+    ],
+    "version": 331520
+}
+
+
+loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/Models.2/libmodelsplugin.so"
+QQmlImportDatabase::registerPluginTypes: "QtQml.Models" from "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/Models.2"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::addLibraryImport: "QtQuick.Templates" 2.0 as "QT"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::addLibraryImport: "QtQuick.Controls" 2.0 as "QQC2"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::addLibraryImport: "org.kde.kirigami" 2.20 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::addFileImport: "private/globaltoolbar" -1.-1 as "GlobalToolBar"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::addFileImport: "templates" -1.-1 as "KT"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "KT.AppHeaderSizeGroup" => "AppHeaderSizeGroup" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/SingletonHeaderSizeGroup.qml") TYPE/URL-SINGLETON
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/SingletonHeaderSizeGroup.qml)::addLibraryImport: "org.kde.kirigami" 2.14 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/SingletonHeaderSizeGroup.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/SingletonHeaderSizeGroup.qml)::resolveType: "Kirigami.SizeGroup" => "SizeGroup" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/SingletonHeaderSizeGroup.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/SingletonHeaderSizeGroup.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "QQC2.Control" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Control.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Control.qml)::addLibraryImport: "QtQuick" 2.6 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Control.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Control.qml)::addLibraryImport: "QtQuick.Templates" 2.15 as "T"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Control.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Control.qml)::addLibraryImport: "org.kde.qqc2desktopstyle.private" 1.0 as "StylePrivate"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Control.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/qqc2desktopstyle/private/qmldir"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/qqc2desktopstyle/private/libqqc2desktopstyleplugin.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QQmlExtensionInterface",
+    "archreq": 0,
+    "className": "QQc2DesktopStylePlugin",
+    "debug": false,
+    "version": 331520
+}
+
+
+loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/qqc2desktopstyle/private/libqqc2desktopstyleplugin.so"
+QQmlImportDatabase::registerPluginTypes: "org.kde.qqc2desktopstyle.private" from "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/qqc2desktopstyle/private"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Control.qml)::addLibraryImport: "org.kde.kirigami" 2.4 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Control.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Control.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Control.qml)::resolveType: "T.Control" => "QQuickControl" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Control.qml)::resolveType: "StylePrivate.StyleItem" => "KQuickStyleItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Control.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Control.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Rectangle" => "QQuickRectangle" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "GlobalToolBar.PageRowGlobalToolBarStyleGroup" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarStyleGroup.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarStyleGroup.qml)::addLibraryImport: "QtQuick" 2.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarStyleGroup.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarStyleGroup.qml)::addLibraryImport: "org.kde.kirigami" 2.19 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarStyleGroup.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarStyleGroup.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarStyleGroup.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Loader" => "QQuickLoader" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "ParallelAnimation" => "QQuickParallelAnimation" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "YAnimator" => "QQuickYAnimator" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "PropertyAnimation" => "QQuickPropertyAnimation" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Layout" => "QQuickLayout" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Keys" => "QQuickKeysAttached" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Kirigami.ColumnView" => "ColumnView" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Connections" => "QQmlConnections" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "QQC2.StackView" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::addLibraryImport: "QtQuick" 2.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::addLibraryImport: "QtQuick.Controls" 2.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::addLibraryImport: "QtQuick.Templates" 2.15 as "T"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::addLibraryImport: "org.kde.kirigami" 2.20 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::resolveType: "Transition" => "QQuickTransition" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::resolveType: "NumberAnimation" => "QQuickNumberAnimation" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::resolveType: "T.StackView" => "QQuickStackView" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/StackView.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Transition" => "QQuickTransition" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "OpacityAnimator" => "QQuickOpacityAnimator" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "OverlayDrawer" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::addLibraryImport: "QtQuick" 2.1 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::addLibraryImport: "QtQuick.Templates" 2.0 as "T2"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::addLibraryImport: "org.kde.kirigami" 2.15 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::addFileImport: "private" -1.-1 as "P"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::addFileImport: "templates" -1.-1 as "T"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::resolveType: "T.AppHeaderSizeGroup" => "AppHeaderSizeGroup" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/SingletonHeaderSizeGroup.qml") TYPE/URL-SINGLETON
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::resolveType: "Rectangle" => "QQuickRectangle" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::resolveType: "Kirigami.Theme" => "Kirigami::PlatformTheme" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::resolveType: "Behavior" => "QQuickBehavior" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::resolveType: "P.EdgeShadow" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/EdgeShadow.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/EdgeShadow.qml)::addLibraryImport: "QtQuick" 2.1 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/EdgeShadow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/EdgeShadow.qml)::addLibraryImport: "QtGraphicalEffects" 1.0 as "GE"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/EdgeShadow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/qmldir"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/libqtgraphicaleffectsplugin.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QQmlExtensionInterface/1.0",
+    "archreq": 0,
+    "className": "QtGraphicalEffectsPlugin",
+    "debug": false,
+    "uri": [
+        "QtGraphicalEffects"
+    ],
+    "version": 331520
+}
+
+
+loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/libqtgraphicaleffectsplugin.so"
+QQmlImportDatabase::registerPluginTypes: "QtGraphicalEffects" from "/usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/EdgeShadow.qml)::addLibraryImport: "org.kde.kirigami" 2.4 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/EdgeShadow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/EdgeShadow.qml)::resolveType: "GE.LinearGradient" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/LinearGradient.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/LinearGradient.qml)::addLibraryImport: "QtQuick" 2.12 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/LinearGradient.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/LinearGradient.qml)::addLibraryImport: "QtGraphicalEffects.private" 1.12 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/LinearGradient.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/private/qmldir"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/private/libqtgraphicaleffectsprivate.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QQmlExtensionInterface/1.0",
+    "archreq": 0,
+    "className": "QtGraphicalEffectsPrivatePlugin",
+    "debug": false,
+    "uri": [
+        "QtGraphicalEffects.private"
+    ],
+    "version": 331520
+}
+
+
+loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/private/libqtgraphicaleffectsprivate.so"
+QQmlImportDatabase::registerPluginTypes: "QtGraphicalEffects.private" from "/usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/private"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/LinearGradient.qml)::resolveType: "ShaderEffectSource" => "QQuickShaderEffectSource" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/LinearGradient.qml)::resolveType: "Gradient" => "QQuickGradient" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/LinearGradient.qml)::resolveType: "Rectangle" => "QQuickRectangle" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/LinearGradient.qml)::resolveType: "ShaderEffect" => "QQuickShaderEffect" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/LinearGradient.qml)::resolveType: "GradientStop" => "QQuickGradientStop" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/LinearGradient.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/LinearGradient.qml)::resolveType: "SourceProxy" => "QGfxSourceProxy" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/LinearGradient.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/LinearGradient.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/LinearGradient.qml)::resolveType: "Gradient" => "QQuickGradient" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/EdgeShadow.qml)::resolveType: "GradientStop" => "QQuickGradientStop" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/EdgeShadow.qml)::resolveType: "Gradient" => "QQuickGradient" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/EdgeShadow.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::resolveType: "T.OverlayDrawer" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::addLibraryImport: "QtQuick" 2.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::addLibraryImport: "QtQuick.Templates" 2.15 as "T2"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::addLibraryImport: "QtQuick.Controls" 2.15 as "QQC2"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::addLibraryImport: "org.kde.kirigami" 2.11 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::addFileImport: "private" -1.-1 as "P"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "NumberAnimation" => "QQuickNumberAnimation" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "ScriptAction" => "QQuickScriptAction" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "SmoothedAnimation" => "QQuickSmoothedAnimation" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "Translate" => "QQuickTranslate" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "P.IconPropertiesGroup" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/IconPropertiesGroup.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/IconPropertiesGroup.qml)::addLibraryImport: "QtQml" 2.1 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/IconPropertiesGroup.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/qmldir"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/libqmlplugin.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QQmlExtensionInterface/1.0",
+    "archreq": 0,
+    "className": "QtQmlPlugin",
+    "debug": false,
+    "uri": [
+        "QtQml"
+    ],
+    "version": 331520
+}
+
+
+loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/libqmlplugin.so"
+QQmlImportDatabase::registerPluginTypes: "QtQml" from "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQml"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/IconPropertiesGroup.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/IconPropertiesGroup.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "State" => "QQuickState" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "Accessible" => "QQuickAccessibleAttached" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "SequentialAnimation" => "QQuickSequentialAnimation" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "Transition" => "QQuickTransition" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "Kirigami.Theme" => "Kirigami::PlatformTheme" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "PropertyChanges" => "QQuickPropertyChanges" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "T2.ToolTip" => "QQuickToolTip" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "MouseArea" => "QQuickMouseArea" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "Component" => "QQmlComponent" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "T2.Drawer" => "QQuickDrawer" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "QQC2.ToolButton" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml)::addLibraryImport: "QtQuick" 2.6 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml)::addLibraryImport: "QtQuick.Templates" 2.15 as "T"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml)::addLibraryImport: "org.kde.kirigami" 2.4 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml)::addLibraryImport: "org.kde.qqc2desktopstyle.private" 1.0 as "StylePrivate"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/qqc2desktopstyle/private/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml)::resolveType: "StylePrivate.StyleItem" => "KQuickStyleItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml)::resolveType: "T.ToolButton" => "QQuickToolButton" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml)::resolveType: "Kirigami.MnemonicData" => "MnemonicAttached" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml)::resolveType: "Kirigami.Theme" => "Kirigami::PlatformTheme" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml)::resolveType: "Shortcut" => "QQuickShortcut" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "Behavior" => "QQuickBehavior" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "P.IconPropertiesGroup" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/IconPropertiesGroup.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "P.IconPropertiesGroup" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/IconPropertiesGroup.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "SequentialAnimation" => "QQuickSequentialAnimation" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/OverlayDrawer.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::resolveType: "ColorAnimation" => "QQuickColorAnimation" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::resolveType: "LayoutMirroring" => "QQuickLayoutMirroringAttached" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::resolveType: "Loader" => "QQuickLoader" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::resolveType: "Kirigami.Separator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::addLibraryImport: "QtQuick" 2.1 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::addLibraryImport: "org.kde.kirigami" 2.12 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::resolveType: "Accessible" => "QQuickAccessibleAttached" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::resolveType: "Rectangle" => "QQuickRectangle" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::resolveType: "Accessible" => "QQuickAccessibleAttached" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::resolveType: "NumberAnimation" => "QQuickNumberAnimation" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::resolveType: "Kirigami.ShadowedRectangle" => "ShadowedRectangle" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "RowLayout" => "QQuickRowLayout" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Behavior" => "QQuickBehavior" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "QT.Control" => "QQuickControl" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Shortcut" => "QQuickShortcut" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Timer" => "QQmlTimer" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "OverlayDrawer" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "QT.Control" => "QQuickControl" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ApplicationWindow.qml)::resolveType: "Kirigami.AbstractApplicationWindow" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::addLibraryImport: "QtQuick" 2.12 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::addLibraryImport: "QtQml" 2.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::addLibraryImport: "QtQuick.Controls" 2.0 as "QQC2"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::addLibraryImport: "QtQuick.Window" 2.5 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Window.2/qmldir"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Window.2/libwindowplugin.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QQmlEngineExtensionInterface",
+    "archreq": 0,
+    "className": "QtQuick2WindowPlugin",
+    "debug": false,
+    "uri": [
+        "QtQuick.Window.2"
+    ],
+    "version": 331520
+}
+
+
+loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Window.2/libwindowplugin.so"
+QQmlImportDatabase::registerPluginTypes: "QtQuick.Window" from "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Window.2"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::addLibraryImport: "org.kde.kirigami" 2.4 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::addFileImport: "templates/private" -1.-1 as "TP"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "Kirigami.Action" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Action.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "MouseArea" => "QQuickMouseArea" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "LayoutMirroring" => "QQuickLayoutMirroringAttached" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "QQC2.ApplicationWindow" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/ApplicationWindow.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/ApplicationWindow.qml)::addLibraryImport: "QtQuick" 2.12 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/ApplicationWindow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/ApplicationWindow.qml)::addLibraryImport: "QtQuick.Window" 2.12 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/ApplicationWindow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Window.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/ApplicationWindow.qml)::addLibraryImport: "QtQuick.Controls" 2.12 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/ApplicationWindow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/ApplicationWindow.qml)::addLibraryImport: "QtQuick.Controls.impl" 2.12 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/ApplicationWindow.qml)::addLibraryImport: "QtQuick.Templates" 2.12 as "T"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/ApplicationWindow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/ApplicationWindow.qml)::resolveType: "Rectangle" => "QQuickRectangle" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/ApplicationWindow.qml)::resolveType: "T.ApplicationWindow" => "QQuickApplicationWindow" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/ApplicationWindow.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "Component" => "QQmlComponent" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "OverlayDrawer" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "Rectangle" => "QQuickRectangle" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "Translate" => "QQuickTranslate" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "TP.PassiveNotificationsManager" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::addLibraryImport: "QtQuick" 2.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::addLibraryImport: "QtQuick.Controls" 2.15 as "QQC2"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::addLibraryImport: "QtQuick.Layouts" 1.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::addLibraryImport: "org.kde.kirigami" 2.20 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "Layout" => "QQuickLayout" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "RowLayout" => "QQuickRowLayout" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "TapHandler" => "QQuickTapHandler" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "QQC2.Button" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Button.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Button.qml)::addLibraryImport: "QtQuick" 2.6 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Button.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Button.qml)::addLibraryImport: "QtQuick.Templates" 2.15 as "T"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Button.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Button.qml)::addLibraryImport: "org.kde.qqc2desktopstyle.private" 1.0 as "StylePrivate"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Button.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/qqc2desktopstyle/private/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Button.qml)::addLibraryImport: "org.kde.kirigami" 2.4 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Button.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Button.qml)::resolveType: "Kirigami.MnemonicData" => "MnemonicAttached" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Button.qml)::resolveType: "T.Button" => "QQuickButton" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Button.qml)::resolveType: "Kirigami.Theme" => "Kirigami::PlatformTheme" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Button.qml)::resolveType: "Shortcut" => "QQuickShortcut" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Button.qml)::resolveType: "StylePrivate.StyleItem" => "KQuickStyleItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Button.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "Component" => "QQmlComponent" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "Transition" => "QQuickTransition" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "Kirigami.ShadowedRectangle" => "ShadowedRectangle" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "Kirigami.Theme" => "Kirigami::PlatformTheme" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "PropertyAction" => "QQuickPropertyAction" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "ParallelAnimation" => "QQuickParallelAnimation" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "NumberAnimation" => "QQuickNumberAnimation" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "ListModel" => "QQmlListModel" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "PropertyAnimation" => "QQuickPropertyAnimation" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "ListView" => "QQuickListView" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "Timer" => "QQmlTimer" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "QQC2.Control" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Control.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "QQC2.Label" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Label.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Label.qml)::addLibraryImport: "QtQuick" 2.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Label.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Label.qml)::addLibraryImport: "QtQuick.Window" 2.2 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Label.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Window.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Label.qml)::addLibraryImport: "QtQuick.Templates" 2.15 as "T"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Label.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Label.qml)::addLibraryImport: "org.kde.qqc2desktopstyle.private" 1.0 as "StylePrivate"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Label.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/qqc2desktopstyle/private/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Label.qml)::addLibraryImport: "org.kde.kirigami" 2.4 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Label.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Label.qml)::resolveType: "T.Label" => "QQuickLabel" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Label.qml)::resolveType: "HoverHandler" => "QQuickHoverHandler" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Label.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Label.qml)::resolveType: "Text" => "QQuickText" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "ListView" => "QQuickListView" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "Text" => "QQuickText" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/PassiveNotificationsManager.qml)::resolveType: "Text" => "QQuickText" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "Kirigami.Icon" => "Icon" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "NumberAnimation" => "QQuickNumberAnimation" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "Behavior" => "QQuickBehavior" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "Shortcut" => "QQuickShortcut" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "Binding" => "QQmlBind" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "OverlayDrawer" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "OverlayDrawer" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/OverlayDrawer.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "Kirigami.Action" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Action.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "Binding" => "QQmlBind" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "Binding" => "QQmlBind" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "Binding" => "QQmlBind" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "Binding" => "QQmlBind" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml)::resolveType: "Binding" => "QQmlBind" TYPE
+QQmlImports(qrc:/ui/main.qml)::resolveType: "QQC2.Label" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Label.qml") TYPE/URL
+QQmlImports(qrc:/ui/main.qml)::resolveType: "RowLayout" => "QQuickRowLayout" TYPE
+QQmlImports(qrc:/ui/main.qml)::resolveType: "Layout" => "QQuickLayout" TYPE
+QQmlImports(qrc:/ui/main.qml)::resolveType: "QQC2.Control" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Control.qml") TYPE/URL
+QQmlImports(qrc:/ui/main.qml)::addImplicitImport
+QQmlImports(qrc:/ui/main.qml)::resolveType: "GlobalMenu" => "" QUrl("qrc:/ui/GlobalMenu.qml") TYPE/URL
+QQmlImports(qrc:/ui/GlobalMenu.qml)::addLibraryImport: "QtQuick" 2.15 as ""
+QQmlImports(qrc:/ui/GlobalMenu.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(qrc:/ui/GlobalMenu.qml)::addLibraryImport: "Qt.labs.platform" 1.1 as "Platform"
+QQmlImports(qrc:/ui/GlobalMenu.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/Qt/labs/platform/qmldir"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/Qt/labs/platform/libqtlabsplatformplugin.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QQmlExtensionInterface/1.0",
+    "archreq": 0,
+    "className": "QtLabsPlatformPlugin",
+    "debug": false,
+    "uri": [
+        "Qt.labs.platform"
+    ],
+    "version": 331520
+}
+
+
+loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/Qt/labs/platform/libqtlabsplatformplugin.so"
+QQmlImportDatabase::registerPluginTypes: "Qt.labs.platform" from "/usr/lib/x86_64-linux-gnu/qt5/qml/Qt/labs/platform"
+QQmlImports(qrc:/ui/GlobalMenu.qml)::addLibraryImport: "org.kde.kirigami" 2.19 as "Kirigami"
+QQmlImports(qrc:/ui/GlobalMenu.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(qrc:/ui/GlobalMenu.qml)::resolveType: "Platform.MenuBar" => "QQuickPlatformMenuBar" TYPE
+QQmlImports(qrc:/ui/GlobalMenu.qml)::addImplicitImport
+QQmlImports(qrc:/ui/GlobalMenu.qml)::resolveType: "ActionMenuItem" => "" QUrl("qrc:/ui/ActionMenuItem.qml") TYPE/URL
+QQmlImports(qrc:/ui/ActionMenuItem.qml)::addLibraryImport: "QtQuick" 2.15 as ""
+QQmlImports(qrc:/ui/ActionMenuItem.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(qrc:/ui/ActionMenuItem.qml)::addLibraryImport: "Qt.labs.platform" 1.1 as "Platform"
+QQmlImports(qrc:/ui/ActionMenuItem.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/Qt/labs/platform/qmldir"
+QQmlImports(qrc:/ui/ActionMenuItem.qml)::resolveType: "Platform.MenuItem" => "QQuickPlatformMenuItem" TYPE
+QQmlImports(qrc:/ui/ActionMenuItem.qml)::addImplicitImport
+QQmlImports(qrc:/ui/GlobalMenu.qml)::resolveType: "Kirigami.Action" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Action.qml") TYPE/URL
+QQmlImports(qrc:/ui/GlobalMenu.qml)::resolveType: "Platform.Menu" => "QQuickPlatformMenu" TYPE
+QQmlImports(qrc:/ui/main.qml)::resolveType: "Kirigami.Theme" => "Kirigami::PlatformTheme" TYPE
+QQmlImports(qrc:/ui/main.qml)::resolveType: "Rectangle" => "QQuickRectangle" TYPE
+QQmlImports(qrc:/ui/main.qml)::resolveType: "Kirigami.Action" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Action.qml") TYPE/URL
+QQmlImports(qrc:/ui/main.qml)::resolveType: "Connections" => "QQmlConnections" TYPE
+QQmlImports(qrc:/ui/main.qml)::resolveType: "Text" => "QQuickText" TYPE
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kirigami/org.kde.desktop.so, metadata=
+{
+    "IID": "org.kde.kirigami.KirigamiPluginFactory",
+    "archreq": 0,
+    "className": "KirigamiPlasmaFactory",
+    "debug": false,
+    "version": 331520
+}
+
+
+loaded library "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kirigami/org.kde.desktop.so"
+kf.kirigami: Loading style plugin from "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kirigami/org.kde.desktop.so"
+QQmlImports(columnview.cpp)::addLibraryImport: "QtQuick" 2.7 as ""
+QQmlImports(columnview.cpp)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(columnview.cpp)::addLibraryImport: "org.kde.kirigami" 2.7 as "Kirigami"
+QQmlImports(columnview.cpp)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(columnview.cpp)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(columnview.cpp)::resolveType: "Kirigami.Theme" => "Kirigami::PlatformTheme" TYPE
+QQmlImports(columnview.cpp)::resolveType: "Component" => "QQmlComponent" TYPE
+QQmlImports(columnview.cpp)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(columnview.cpp)::resolveType: "Kirigami.Separator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml") TYPE/URL
+QQmlImports(columnview.cpp)::addImplicitImport
+QQmlImports(columnview.cpp)::resolveType: "Component" => "QQmlComponent" TYPE
+QQmlImports(columnview.cpp)::resolveType: "Component" => "QQmlComponent" TYPE
+QQmlImports(columnview.cpp)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(columnview.cpp)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(qrc:/ui/OverviewPage.qml)::addLibraryImport: "QtQuick" 2.15 as ""
+QQmlImports(qrc:/ui/OverviewPage.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(qrc:/ui/OverviewPage.qml)::addLibraryImport: "QtQuick.Layouts" 1.15 as ""
+QQmlImports(qrc:/ui/OverviewPage.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/qmldir"
+QQmlImports(qrc:/ui/OverviewPage.qml)::addLibraryImport: "QtQuick.Controls" 2.15 as "QQC2"
+QQmlImports(qrc:/ui/OverviewPage.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(qrc:/ui/OverviewPage.qml)::addLibraryImport: "org.kde.kirigami" 2.19 as "Kirigami"
+QQmlImports(qrc:/ui/OverviewPage.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(qrc:/ui/OverviewPage.qml)::addLibraryImport: "org.kde.quickcharts" 1.0 as "Charts"
+QQmlImports(qrc:/ui/OverviewPage.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/quickcharts/qmldir"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/quickcharts/libQuickCharts.so, metadata=
+{
+    "IID": "org.qt-project.Qt.QQmlExtensionInterface",
+    "archreq": 0,
+    "className": "QuickChartsPlugin",
+    "debug": false,
+    "uri": [
+        "org.kde.quickcharts"
+    ],
+    "version": 331520
+}
+
+
+loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/quickcharts/libQuickCharts.so"
+QQmlImportDatabase::registerPluginTypes: "org.kde.quickcharts" from "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/quickcharts"
+QQmlImports(qrc:/ui/OverviewPage.qml)::addLibraryImport: "org.kde.filelight" 1.0 as ""
+QQmlImports(qrc:/ui/OverviewPage.qml)::resolveType: "Layout" => "QQuickLayout" TYPE
+QQmlImports(qrc:/ui/OverviewPage.qml)::resolveType: "Kirigami.Icon" => "Icon" TYPE
+QQmlImports(qrc:/ui/OverviewPage.qml)::resolveType: "Kirigami.Page" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::addLibraryImport: "QtQuick" 2.5 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::addLibraryImport: "QtQuick.Layouts" 1.2 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::addLibraryImport: "QtQuick.Templates" 2.1 as "T2"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::addLibraryImport: "QtQuick.Controls" 2.1 as "QQC2"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::addLibraryImport: "org.kde.kirigami" 2.10 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::addFileImport: "private" -1.-1 as "P"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::resolveType: "P.DefaultPageTitleDelegate" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/DefaultPageTitleDelegate.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/DefaultPageTitleDelegate.qml)::addLibraryImport: "QtQuick" 2.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/DefaultPageTitleDelegate.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/DefaultPageTitleDelegate.qml)::addLibraryImport: "QtQuick.Layouts" 1.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/DefaultPageTitleDelegate.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/DefaultPageTitleDelegate.qml)::addLibraryImport: "org.kde.kirigami" 2.20 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/DefaultPageTitleDelegate.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/DefaultPageTitleDelegate.qml)::resolveType: "Layout" => "QQuickLayout" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/DefaultPageTitleDelegate.qml)::resolveType: "TextMetrics" => "QQuickTextMetrics" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/DefaultPageTitleDelegate.qml)::resolveType: "Kirigami.Heading" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Heading.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Heading.qml)::addLibraryImport: "QtQuick" 2.0 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Heading.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Heading.qml)::addLibraryImport: "QtQuick.Controls" 2.0 as "QQC2"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Heading.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Heading.qml)::addLibraryImport: "org.kde.kirigami" 2.4 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Heading.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Heading.qml)::resolveType: "QQC2.Label" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Label.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Heading.qml)::resolveType: "Accessible" => "QQuickAccessibleAttached" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Heading.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Heading.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Heading.qml)::resolveType: "Accessible" => "QQuickAccessibleAttached" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/DefaultPageTitleDelegate.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/DefaultPageTitleDelegate.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/DefaultPageTitleDelegate.qml)::resolveType: "Text" => "QQuickText" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/DefaultPageTitleDelegate.qml)::resolveType: "Text" => "QQuickText" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::resolveType: "Kirigami.PageRow" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::resolveType: "T2.StackView" => "QQuickStackView" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::resolveType: "QQC2.Page" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Page.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Page.qml)::addLibraryImport: "QtQuick" 2.12 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Page.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Page.qml)::addLibraryImport: "QtQuick.Controls" 2.12 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Page.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Page.qml)::addLibraryImport: "QtQuick.Templates" 2.12 as "T"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Page.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Page.qml)::addLibraryImport: "org.kde.kirigami" 2.14 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Page.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Page.qml)::addLibraryImport: "org.kde.qqc2desktopstyle.private" 1.0 as "StylePrivate"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Page.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/qqc2desktopstyle/private/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Page.qml)::resolveType: "T.Page" => "QQuickPage" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Page.qml)::resolveType: "Rectangle" => "QQuickRectangle" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Page.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Page.qml)::resolveType: "StylePrivate.StyleItem" => "KQuickStyleItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Page.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Page.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::resolveType: "Flickable" => "QQuickFlickable" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::resolveType: "P.ActionIconGroup" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionIconGroup.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionIconGroup.qml)::addLibraryImport: "QtQml" 2.1 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionIconGroup.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionIconGroup.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionIconGroup.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::resolveType: "Loader" => "QQuickLoader" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::resolveType: "Rectangle" => "QQuickRectangle" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::resolveType: "P.PageActionPropertyGroup" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PageActionPropertyGroup.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PageActionPropertyGroup.qml)::addLibraryImport: "QtQml" 2.1 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PageActionPropertyGroup.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PageActionPropertyGroup.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PageActionPropertyGroup.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PageActionPropertyGroup.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PageActionPropertyGroup.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PageActionPropertyGroup.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PageActionPropertyGroup.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::resolveType: "Component" => "QQmlComponent" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::resolveType: "Layout" => "QQuickLayout" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::resolveType: "Kirigami.Theme" => "Kirigami::PlatformTheme" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::resolveType: "Flickable" => "QQuickFlickable" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::resolveType: "P.ActionIconGroup" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionIconGroup.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::resolveType: "Component" => "QQmlComponent" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::resolveType: "Kirigami.PageRow" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::resolveType: "T2.StackView" => "QQuickStackView" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(qrc:/ui/OverviewPage.qml)::resolveType: "QQC2.ToolButton" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml") TYPE/URL
+QQmlImports(qrc:/ui/OverviewPage.qml)::resolveType: "ColumnLayout" => "QQuickColumnLayout" TYPE
+QQmlImports(qrc:/ui/OverviewPage.qml)::resolveType: "Kirigami.Heading" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Heading.qml") TYPE/URL
+QQmlImports(qrc:/ui/OverviewPage.qml)::resolveType: "Flow" => "QQuickFlow" TYPE
+QQmlImports(qrc:/ui/OverviewPage.qml)::addImplicitImport
+QFactoryLoader::QFactoryLoader() checking directory path "/usr/lib/x86_64-linux-gnu/qt5/plugins/accessible" ...
+QFactoryLoader::QFactoryLoader() checking directory path "/usr/bin/accessible" ...
+QFactoryLoader::QFactoryLoader() checking directory path "/usr/lib/x86_64-linux-gnu/qt5/plugins/accessiblebridge" ...
+QFactoryLoader::QFactoryLoader() checking directory path "/usr/bin/accessiblebridge" ...
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/AbstractButton.qml)::addLibraryImport: "QtQuick" 2.12 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/AbstractButton.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/AbstractButton.qml)::addLibraryImport: "QtQuick.Templates" 2.12 as "T"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/AbstractButton.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/AbstractButton.qml)::resolveType: "T.AbstractButton" => "QQuickAbstractButton" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/AbstractButton.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/AbstractButton.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+kf.iconthemes: Icon theme "breeze-internal" not found.
+kf.iconthemes: Couldn't find current icon theme, falling back to default.
+kf.iconthemes: Icon theme "breeze" not found.
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::resolveType: "Separator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::resolveType: "Separator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml)::addLibraryImport: "QtQuick" 2.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml)::addLibraryImport: "QtQml" 2.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml)::addLibraryImport: "QtQuick.Layouts" 1.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml)::addLibraryImport: "org.kde.kirigami" 2.19 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml)::resolveType: "AbstractPageHeader" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/AbstractPageHeader.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/AbstractPageHeader.qml)::addLibraryImport: "QtQuick" 2.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/AbstractPageHeader.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/AbstractPageHeader.qml)::addLibraryImport: "org.kde.kirigami" 2.19 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/AbstractPageHeader.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/AbstractPageHeader.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/AbstractPageHeader.qml)::resolveType: "Kirigami.Theme" => "Kirigami::PlatformTheme" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/AbstractPageHeader.qml)::resolveType: "Kirigami.AbstractApplicationHeader" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/AbstractApplicationHeader.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/AbstractApplicationHeader.qml)::addLibraryImport: "QtQuick" 2.5 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/AbstractApplicationHeader.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/AbstractApplicationHeader.qml)::addLibraryImport: "org.kde.kirigami" 2.4 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/AbstractApplicationHeader.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/AbstractApplicationHeader.qml)::addFileImport: "../../templates" -1.-1 as "T"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/AbstractApplicationHeader.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/AbstractApplicationHeader.qml)::resolveType: "T.AppHeaderSizeGroup" => "AppHeaderSizeGroup" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/SingletonHeaderSizeGroup.qml") TYPE/URL-SINGLETON
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/AbstractApplicationHeader.qml)::resolveType: "T.AbstractApplicationHeader" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::addLibraryImport: "QtQuick" 2.7 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::addLibraryImport: "QtQuick.Layouts" 1.2 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::addLibraryImport: "QtQuick.Controls" 2.4 as "QQC2"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::addLibraryImport: "org.kde.kirigami" 2.14 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::addFileImport: "private" -1.-1 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::resolveType: "LayoutMirroring" => "QQuickLayoutMirroringAttached" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::resolveType: "Timer" => "QQmlTimer" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::resolveType: "Component" => "QQmlComponent" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::resolveType: "Kirigami.Theme" => "Kirigami::PlatformTheme" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::resolveType: "NumberAnimation" => "QQuickNumberAnimation" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::resolveType: "Kirigami.PageRow" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::resolveType: "Kirigami.Page" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::resolveType: "Connections" => "QQmlConnections" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::resolveType: "Kirigami.PageRow" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::resolveType: "Kirigami.Page" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::resolveType: "Kirigami.Page" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/AbstractApplicationHeader.qml)::resolveType: "Kirigami.Theme" => "Kirigami::PlatformTheme" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/AbstractApplicationHeader.qml)::resolveType: "Rectangle" => "QQuickRectangle" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/AbstractApplicationHeader.qml)::resolveType: "Kirigami.Separator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/AbstractApplicationHeader.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/AbstractPageHeader.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/AbstractPageHeader.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml)::resolveType: "Loader" => "QQuickLoader" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml)::resolveType: "Kirigami.ActionToolBar" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::addLibraryImport: "QtQuick" 2.7 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::addLibraryImport: "QtQml" 2.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::addLibraryImport: "QtQuick.Layouts" 1.2 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::addLibraryImport: "QtQuick.Controls" 2.4 as "QQC2"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::addLibraryImport: "org.kde.kirigami" 2.14 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::addFileImport: "private" -1.-1 as "P"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::resolveType: "QQC2.Control" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Control.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::resolveType: "Loader" => "QQuickLoader" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::resolveType: "Kirigami.Action" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Action.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::resolveType: "Kirigami.ToolBarLayout" => "ToolBarLayout" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::resolveType: "Binding" => "QQmlBind" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::resolveType: "P.ActionsMenu" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::addLibraryImport: "QtQuick" 2.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::addLibraryImport: "QtQuick.Controls" 2.15 as "QQC2"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::addLibraryImport: "org.kde.kirigami" 2.20 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::resolveType: "QQC2.Menu" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::addLibraryImport: "QtQuick" 2.7 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::addLibraryImport: "QtQuick.Layouts" 1.2 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::addLibraryImport: "QtQuick.Controls" 2.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::addLibraryImport: "QtQuick.Templates" 2.15 as "T"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::addLibraryImport: "org.kde.qqc2desktopstyle.private" 1.0 as "StylePrivate"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/qqc2desktopstyle/private/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::addLibraryImport: "org.kde.kirigami" 2.12 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::resolveType: "MenuItem" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::addLibraryImport: "QtQuick" 2.6 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::addLibraryImport: "QtQuick.Layouts" 1.2 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::addLibraryImport: "QtQuick.Templates" 2.15 as "T"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::addLibraryImport: "org.kde.kirigami" 2.4 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::resolveType: "Label" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Label.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::resolveType: "Kirigami.MnemonicData" => "MnemonicAttached" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::resolveType: "Kirigami.Icon" => "Icon" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::resolveType: "Rectangle" => "QQuickRectangle" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::resolveType: "Layout" => "QQuickLayout" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::resolveType: "Shortcut" => "QQuickShortcut" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::resolveType: "CheckIndicator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/CheckIndicator.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/CheckIndicator.qml)::addLibraryImport: "QtQuick" 2.6 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/CheckIndicator.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/CheckIndicator.qml)::addLibraryImport: "QtQuick.Templates" 2.15 as "T"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/CheckIndicator.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/CheckIndicator.qml)::addLibraryImport: "org.kde.qqc2desktopstyle.private" 1.0 as "StylePrivate"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/CheckIndicator.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/qqc2desktopstyle/private/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/CheckIndicator.qml)::addLibraryImport: "org.kde.kirigami" 2.4 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/CheckIndicator.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/CheckIndicator.qml)::resolveType: "StylePrivate.StyleItem" => "KQuickStyleItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/CheckIndicator.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::resolveType: "T.MenuItem" => "QQuickMenuItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::resolveType: "RowLayout" => "QQuickRowLayout" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::resolveType: "Text" => "QQuickText" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::resolveType: "Text" => "QQuickText" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::resolveType: "Text" => "QQuickText" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::resolveType: "Text" => "QQuickText" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml)::resolveType: "Text" => "QQuickText" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::resolveType: "ScrollBar" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::addLibraryImport: "QtQuick" 2.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::addLibraryImport: "QtQml" 2.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::addLibraryImport: "org.kde.qqc2desktopstyle.private" 1.0 as "StylePrivate"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/qqc2desktopstyle/private/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::addLibraryImport: "QtQuick.Templates" 2.15 as "T"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::addLibraryImport: "org.kde.kirigami" 2.20 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::resolveType: "T.ScrollBar" => "QQuickScrollBar" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::resolveType: "StylePrivate.StyleItem" => "KQuickStyleItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::resolveType: "Rectangle" => "QQuickRectangle" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::resolveType: "PropertyChanges" => "QQuickPropertyChanges" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::resolveType: "Transition" => "QQuickTransition" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::resolveType: "Timer" => "QQmlTimer" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::resolveType: "NumberAnimation" => "QQuickNumberAnimation" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::resolveType: "Component" => "QQmlComponent" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::resolveType: "MouseArea" => "QQuickMouseArea" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::resolveType: "Binding" => "QQmlBind" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::resolveType: "State" => "QQuickState" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::resolveType: "Binding" => "QQmlBind" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::resolveType: "T.Menu" => "QQuickMenu" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::resolveType: "Connections" => "QQmlConnections" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::resolveType: "ListView" => "QQuickListView" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::resolveType: "Kirigami.ShadowedRectangle" => "ShadowedRectangle" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::resolveType: "Transition" => "QQuickTransition" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::resolveType: "StylePrivate.StyleItem" => "KQuickStyleItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::resolveType: "NumberAnimation" => "QQuickNumberAnimation" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::resolveType: "ScrollBar" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::resolveType: "ScrollBar" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ScrollBar.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::resolveType: "QQC2.MenuItem" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::resolveType: "Instantiator" => "QQmlInstantiator" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::resolveType: "Component" => "QQmlComponent" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::resolveType: "ActionMenuItem" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionMenuItem.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionMenuItem.qml)::addLibraryImport: "QtQuick" 2.3 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionMenuItem.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionMenuItem.qml)::addLibraryImport: "QtQuick.Controls" 2.3 as "QQC2"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionMenuItem.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionMenuItem.qml)::addLibraryImport: "org.kde.kirigami" 2.4 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionMenuItem.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionMenuItem.qml)::resolveType: "QQC2.MenuItem" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionMenuItem.qml)::resolveType: "QQC2.ToolTip" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::addLibraryImport: "QtQuick" 2.6 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::addLibraryImport: "QtQuick.Controls" 2.15 as "Controls"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::addLibraryImport: "QtQuick.Templates" 2.15 as "T"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::addLibraryImport: "QtQuick.Layouts" 1.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::addLibraryImport: "org.kde.kirigami" 2.12 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::resolveType: "NumberAnimation" => "QQuickNumberAnimation" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::resolveType: "T.ToolTip" => "QQuickToolTip" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::resolveType: "Kirigami.Theme" => "Kirigami::PlatformTheme" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::resolveType: "Layout" => "QQuickLayout" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::resolveType: "Kirigami.ShadowedRectangle" => "ShadowedRectangle" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::resolveType: "Controls.Label" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Label.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::resolveType: "Transition" => "QQuickTransition" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::resolveType: "RowLayout" => "QQuickRowLayout" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::resolveType: "Easing" => "QQmlEasingValueType" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml)::resolveType: "Text" => "QQuickText" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionMenuItem.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionMenuItem.qml)::resolveType: "QQC2.ToolTip" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionMenuItem.qml)::resolveType: "QQC2.ToolTip" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::resolveType: "QQC2.MenuSeparator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuSeparator.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuSeparator.qml)::addLibraryImport: "QtQuick" 2.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuSeparator.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuSeparator.qml)::addLibraryImport: "QtQuick.Templates" 2.15 as "T"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuSeparator.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuSeparator.qml)::addLibraryImport: "org.kde.kirigami" 2.15 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuSeparator.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuSeparator.qml)::resolveType: "T.MenuSeparator" => "QQuickMenuSeparator" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuSeparator.qml)::resolveType: "Kirigami.Separator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuSeparator.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::resolveType: "QQC2.Action" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/Action.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::resolveType: "Loader" => "QQuickLoader" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::resolveType: "Component" => "QQmlComponent" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::resolveType: "Component" => "QQmlComponent" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::resolveType: "Component" => "QQmlComponent" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::resolveType: "Component" => "QQmlComponent" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::resolveType: "QQC2.Action" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/Action.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::resolveType: "QQC2.MenuItem" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuItem.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::resolveType: "QQC2.Action" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/Action.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::resolveType: "P.PrivateActionToolButton" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml)::addLibraryImport: "QtQuick" 2.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml)::addLibraryImport: "QtQml" 2.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml)::addLibraryImport: "QtQuick.Layouts" 1.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml)::addLibraryImport: "QtQuick.Controls" 2.15 as "Controls"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml)::addLibraryImport: "org.kde.kirigami" 2.20 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml)::resolveType: "Controls.ToolTip" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml)::resolveType: "Controls.ToolButton" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml)::resolveType: "Accessible" => "QQuickAccessibleAttached" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml)::resolveType: "Binding" => "QQmlBind" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml)::resolveType: "Component" => "QQmlComponent" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml)::resolveType: "ActionsMenu" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionsMenu.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml)::resolveType: "Component" => "QQmlComponent" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml)::resolveType: "Binding" => "QQmlBind" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::resolveType: "QQC2.MenuSeparator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/MenuSeparator.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::resolveType: "Layout" => "QQuickLayout" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::resolveType: "P.ActionMenuItem" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/ActionMenuItem.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::resolveType: "QtObject" => "QObject" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/ActionToolBar.qml)::resolveType: "Binding" => "QQmlBind" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml)::resolveType: "Layout" => "QQuickLayout" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml)::resolveType: "MouseArea" => "QQuickMouseArea" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml)::resolveType: "Binding" => "QQmlBind" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml)::resolveType: "RowLayout" => "QQuickRowLayout" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml)::resolveType: "Binding" => "QQmlBind" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml)::resolveType: "Binding" => "QQmlBind" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml)::resolveType: "Binding" => "QQmlBind" TYPE
+qt.qml.binding.removal: Overwriting binding on ToolBarPageHeader_QMLTYPE_88::page at file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml:426 that was initially bound at file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml:37:5
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolBar.qml)::addLibraryImport: "QtQuick" 2.6 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolBar.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolBar.qml)::addLibraryImport: "QtQuick.Templates" 2.15 as "T"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolBar.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolBar.qml)::addLibraryImport: "org.kde.kirigami" 2.4 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolBar.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolBar.qml)::resolveType: "T.ToolBar" => "QQuickToolBar" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolBar.qml)::resolveType: "Rectangle" => "QQuickRectangle" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolBar.qml)::resolveType: "Kirigami.Separator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolBar.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolBar.qml)::resolveType: "Kirigami.Theme" => "Kirigami::PlatformTheme" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolBar.qml)::addImplicitImport
+qt.qml.binding.removal: Overwriting binding on ToolBarPageHeader_QMLTYPE_88::implicitHeight at file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml:78 that was initially bound at file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml:16:5
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::resolveType: "Separator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::resolveType: "Separator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml)::resolveType: "AppHeaderSizeGroup" => "AppHeaderSizeGroup" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/SingletonHeaderSizeGroup.qml") TYPE/URL-SINGLETON
+qt.qml.binding.removal: Overwriting binding on ToolBarPageHeader_QMLTYPE_88::page at file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Page.qml:426 that was initially bound at file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml:37:5
+qt.qml.binding.removal: Overwriting binding on ToolBarPageHeader_QMLTYPE_88::implicitHeight at file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml:78 that was initially bound at file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/ToolBarPageHeader.qml:16:5
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::resolveType: "Separator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::resolveType: "Separator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml") TYPE/URL
+QQmlImports(qrc:/ui/main.qml)::resolveType: "MapPage" => "" QUrl("qrc:/ui/MapPage.qml") TYPE/URL
+QQmlImports(qrc:/ui/MapPage.qml)::addLibraryImport: "QtQuick" 2.15 as ""
+QQmlImports(qrc:/ui/MapPage.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(qrc:/ui/MapPage.qml)::addLibraryImport: "QtQuick.Layouts" 1.15 as ""
+QQmlImports(qrc:/ui/MapPage.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/qmldir"
+QQmlImports(qrc:/ui/MapPage.qml)::addLibraryImport: "QtQuick.Controls" 2.15 as "QQC2"
+QQmlImports(qrc:/ui/MapPage.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(qrc:/ui/MapPage.qml)::addLibraryImport: "org.kde.kirigami" 2.19 as "Kirigami"
+QQmlImports(qrc:/ui/MapPage.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(qrc:/ui/MapPage.qml)::addLibraryImport: "org.kde.kcoreaddons" 1.0 as "KCoreAddons"
+QQmlImports(qrc:/ui/MapPage.qml)::addLibraryImport: "QtQuick.Shapes" 1.15 as ""
+QQmlImports(qrc:/ui/MapPage.qml)::addLibraryImport: "org.kde.filelight" 1.0 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::addLibraryImport: "QtQuick" 2.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::addLibraryImport: "QtQuick.Controls" 2.15 as "QQC2"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::addLibraryImport: "QtQuick.Layouts" 1.15 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::addLibraryImport: "org.kde.kirigami" 2.19 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::addFileImport: "../../templates/private" -1.-1 as "TP"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::addFileImport: "../" -1.-1 as "P"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::resolveType: "Kirigami.Theme" => "Kirigami::PlatformTheme" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::resolveType: "QQC2.ToolSeparator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolSeparator.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolSeparator.qml)::addLibraryImport: "QtQuick" 2.6 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolSeparator.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolSeparator.qml)::addLibraryImport: "QtQuick.Templates" 2.15 as "T"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolSeparator.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolSeparator.qml)::addLibraryImport: "org.kde.kirigami" 2.4 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolSeparator.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolSeparator.qml)::resolveType: "T.ToolSeparator" => "QQuickToolSeparator" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolSeparator.qml)::resolveType: "Kirigami.Separator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolSeparator.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::resolveType: "Kirigami.AbstractApplicationHeader" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/AbstractApplicationHeader.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::resolveType: "RowLayout" => "QQuickRowLayout" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::resolveType: "Loader" => "QQuickLoader" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::resolveType: "Accessible" => "QQuickAccessibleAttached" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::resolveType: "Kirigami.Action" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Action.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::resolveType: "Kirigami.PageRow" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::resolveType: "Layout" => "QQuickLayout" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::resolveType: "TP.BackButton" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/BackButton.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/BackButton.qml)::addLibraryImport: "QtQuick" 2.1 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/BackButton.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/BackButton.qml)::addLibraryImport: "QtQuick.Controls" 2.15 as "QQC2"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/BackButton.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/BackButton.qml)::addLibraryImport: "org.kde.kirigami" 2.4 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/BackButton.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/BackButton.qml)::resolveType: "QQC2.ToolButton" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/BackButton.qml)::resolveType: "QQC2.ToolTip" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/BackButton.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::resolveType: "P.PrivateActionToolButton" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/PrivateActionToolButton.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::resolveType: "TP.ForwardButton" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/ForwardButton.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/ForwardButton.qml)::addLibraryImport: "QtQuick" 2.1 as ""
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/ForwardButton.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/ForwardButton.qml)::addLibraryImport: "QtQuick.Controls" 2.15 as "QQC2"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/ForwardButton.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/ForwardButton.qml)::addLibraryImport: "org.kde.kirigami" 2.4 as "Kirigami"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/ForwardButton.qml)::importExtension: loaded "/usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/qmldir"
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/ForwardButton.qml)::resolveType: "QQC2.ToolButton" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolButton.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/ForwardButton.qml)::resolveType: "QQC2.ToolTip" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/ToolTip.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/private/ForwardButton.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::addImplicitImport
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::resolveType: "Item" => "QQuickItem" TYPE
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/private/globaltoolbar/PageRowGlobalToolBarUI.qml)::resolveType: "Kirigami.PageRow" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml") TYPE/URL
+qt.qml.gc.allocatorStats: ========== GC ==========
+qt.qml.gc.allocatorStats: Allocated 774144 bytes in 7 chunks
+qt.qml.gc.allocatorStats: Fragmented memory before GC 67232
+qt.qml.gc.allocatorStats: Slot map for Block allocator:
+qt.qml.gc.allocatorStats:     number of entries in slot 0 : 0
+qt.qml.gc.allocatorStats:     number of entries in slot 1 : 0
+qt.qml.gc.allocatorStats:     number of entries in slot 2 : 0
+qt.qml.gc.allocatorStats:     number of entries in slot 3 : 0
+qt.qml.gc.allocatorStats:     number of entries in slot 4 : 0
+qt.qml.gc.allocatorStats:     number of entries in slot 5 : 0
+qt.qml.gc.allocatorStats:     number of entries in slot 6 : 0
+qt.qml.gc.allocatorStats:     number of entries in slot 7 : 0
+qt.qml.gc.allocatorStats:   total mem in bins 0
+qt.qml.gc.allocatorStats: Slot map for InternalClass allocator:
+qt.qml.gc.allocatorStats:     number of entries in slot 0 : 0
+qt.qml.gc.allocatorStats:     number of entries in slot 1 : 0
+qt.qml.gc.allocatorStats:     number of entries in slot 2 : 0
+qt.qml.gc.allocatorStats:     number of entries in slot 3 : 0
+qt.qml.gc.allocatorStats:     number of entries in slot 4 : 0
+qt.qml.gc.allocatorStats:     number of entries in slot 5 : 0
+qt.qml.gc.allocatorStats:     number of entries in slot 6 : 0
+qt.qml.gc.allocatorStats:     number of entries in slot 7 : 0
+qt.qml.gc.allocatorStats:   total mem in bins 0
+qt.qml.gc.allocatorStats: triggered by unmanaged heap:
+qt.qml.gc.allocatorStats:    old unmanaged heap size: 131172
+qt.qml.gc.allocatorStats:    new unmanaged heap: 123134
+qt.qml.gc.allocatorStats:    unmanaged heap limit: 131072
+qt.qml.gc.allocatorStats: Slot map for Block allocator:
+qt.qml.gc.allocatorStats:     number of entries in slot 0 : 0
+qt.qml.gc.allocatorStats:     number of entries in slot 1 : 81
+qt.qml.gc.allocatorStats:     number of entries in slot 2 : 55
+qt.qml.gc.allocatorStats:     number of entries in slot 3 : 76
+qt.qml.gc.allocatorStats:     number of entries in slot 4 : 36
+qt.qml.gc.allocatorStats:     number of entries in slot 5 : 7
+qt.qml.gc.allocatorStats:     number of entries in slot 6 : 26
+qt.qml.gc.allocatorStats:     number of entries in slot 7 : 112
+qt.qml.gc.allocatorStats:   total mem in bins 127936
+qt.qml.gc.allocatorStats: Slot map for InternalClasss allocator:
+qt.qml.gc.allocatorStats:     number of entries in slot 0 : 0
+qt.qml.gc.allocatorStats:     number of entries in slot 1 : 0
+qt.qml.gc.allocatorStats:     number of entries in slot 2 : 0
+qt.qml.gc.allocatorStats:     number of entries in slot 3 : 0
+qt.qml.gc.allocatorStats:     number of entries in slot 4 : 9
+qt.qml.gc.allocatorStats:     number of entries in slot 5 : 0
+qt.qml.gc.allocatorStats:     number of entries in slot 6 : 0
+qt.qml.gc.allocatorStats:     number of entries in slot 7 : 2
+qt.qml.gc.allocatorStats:   total mem in bins 65024
+qt.qml.gc.allocatorStats: Marked object in 318 us.
+qt.qml.gc.allocatorStats:     8332 objects marked
+qt.qml.gc.allocatorStats: Sweeped object in 112 us.
+qt.qml.gc.allocatorStats: Used memory before GC: 706912
+qt.qml.gc.allocatorStats: Used memory after GC: 581184
+qt.qml.gc.allocatorStats: Freed up bytes      : 125728
+qt.qml.gc.allocatorStats: Freed up chunks     : 0
+qt.qml.gc.allocatorStats: ======== End GC ========
+qt.qml.binding.removal: Overwriting binding on PageRowGlobalToolBarUI_QMLTYPE_93::implicitHeight at file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml:78 that was initially bound at file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml:60:5
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::resolveType: "Separator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::resolveType: "Separator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::resolveType: "Separator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::resolveType: "Separator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml") TYPE/URL
+qt.qml.binding.removal: Overwriting binding on ApplicationWindow_QMLTYPE_41_QML_44::width at file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml:360 that was initially bound at qrc:/ui/main.qml:114:5
+qt.qml.binding.removal: Overwriting binding on ApplicationWindow_QMLTYPE_41_QML_44::height at file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/AbstractApplicationWindow.qml:361 that was initially bound at qrc:/ui/main.qml:115:5
+QQmlComponent: Component is not ready
+file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml:914: Error: Error while loading page: qrc:/ui/MapPage.qml:9 module "QtQuick.Shapes" is not installed
+qrc:/ui/MapPage.qml:8 module "org.kde.kcoreaddons" is not installed
+qrc:/ui/MapPage.qml:9 module "QtQuick.Shapes" is not installed
+qrc:/ui/MapPage.qml:8 module "org.kde.kcoreaddons" is not installed
+
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::resolveType: "Separator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::resolveType: "Separator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::resolveType: "Separator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml") TYPE/URL
+QQmlImports(file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml)::resolveType: "Separator" => "" QUrl("file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/Separator.qml") TYPE/URL
+Failed to create OpenGL context for format QSurfaceFormat(version 2.0, options QFlags<QSurfaceFormat::FormatOption>(), depthBufferSize 24, redBufferSize -1, greenBufferSize -1, blueBufferSize -1, alphaBufferSize -1, stencilBufferSize 8, samples -1, swapBehavior QSurfaceFormat::DoubleBuffer, swapInterval 1, colorSpace QSurfaceFormat::DefaultColorSpace, profile  QSurfaceFormat::NoProfile) 
+timeout: the monitored command dumped core

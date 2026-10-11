@@ -1,0 +1,17 @@
+QFactoryLoader::QFactoryLoader() checking directory path "/usr/lib/x86_64-linux-gnu/qt5/plugins/iconengines" ...
+QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/iconengines/KIconEnginePlugin.so"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/iconengines/KIconEnginePlugin.so, metadata=
+Got keys from plugin meta data ("kiconengine")
+QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/iconengines/libqsvgicon.so"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/iconengines/libqsvgicon.so, metadata=
+QFactoryLoader::QFactoryLoader() checking directory path "/usr/bin/iconengines" ...
+kf.i18n: Loading the "qt_" catalog failed for locale QLocale(C, Default, Default)
+kf.crash: Could not find drkonqi in search paths: ("/usr/bin", "/usr/lib/x86_64-linux-gnu/qt5/libexec", "/usr/lib/x86_64-linux-gnu/libexec")
+kf.iconthemes: Icon theme "breeze-internal" not found.
+kf.iconthemes: Couldn't find current icon theme, falling back to default.
+kf.iconthemes: Icon theme "breeze" not found.
+QQmlComponent: Component is not ready
+file:///usr/lib/x86_64-linux-gnu/qt5/qml/org/kde/kirigami.2/PageRow.qml:914: Error: Error while loading page: qrc:/ui/MapPage.qml:9 module "QtQuick.Shapes" is not installed
+qrc:/ui/MapPage.qml:8 module "org.kde.kcoreaddons" is not installed
+qrc:/ui/MapPage.qml:9 module "QtQuick.Shapes" is not installed
+qrc:/ui/MapPage.qml:8 module "org.kde.kcoreaddons" is not installed
