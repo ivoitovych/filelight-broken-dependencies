@@ -1,0 +1,8 @@
+# Pristine image + ONLY the two QML modules identified as missing, plus x11-apps
+# (xwd) so the Xvfb run can capture a screenshot. Used to check whether the scan
+# page, once it actually loads, needs anything further.
+FROM filelight-noble-pristine
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends qml-module-qtquick-shapes qml-module-org-kde-kcoreaddons x11-apps \
+ && dpkg-query -W -f='${Package}\t${Version}\n' | sort > /pkgs-after-fix.txt \
+ && rm -rf /var/lib/apt/lists/*

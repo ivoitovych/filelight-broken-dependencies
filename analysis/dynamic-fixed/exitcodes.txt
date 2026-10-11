@@ -1,0 +1,2 @@
+xvfb exit=0
+xvfb-strace exit=0
