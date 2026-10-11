@@ -71,6 +71,12 @@ scan UI, which is why the window appears but does nothing.
 None of the Ubuntu fixes were backported to noble; the noble package is
 still 4:23.08.5-0ubuntu3 with the incomplete Depends.
 
+## Full dependency audit
+
+See [DEPENDENCY-AUDIT.md](./DEPENDENCY-AUDIT.md): static review of the upstream source plus
+dynamic tracing in a pristine noble container confirm the two modules below are the
+*complete* set of missing hard dependencies.
+
 ## Fix
 
 Install the two missing QML modules (both are in noble/universe, ~160 KB total):
