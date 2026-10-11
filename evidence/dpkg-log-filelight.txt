@@ -1,0 +1,10 @@
+=== dpkg.log filelight ===
+2026-10-12 01:00:07 install filelight:amd64 <none> 4:23.08.5-0ubuntu3
+2026-10-12 01:00:07 status half-installed filelight:amd64 4:23.08.5-0ubuntu3
+2026-10-12 01:00:07 status unpacked filelight:amd64 4:23.08.5-0ubuntu3
+2026-10-12 01:00:08 configure filelight:amd64 4:23.08.5-0ubuntu3 <none>
+2026-10-12 01:00:08 status unpacked filelight:amd64 4:23.08.5-0ubuntu3
+2026-10-12 01:00:08 status half-configured filelight:amd64 4:23.08.5-0ubuntu3
+2026-10-12 01:00:08 status installed filelight:amd64 4:23.08.5-0ubuntu3
+
+[exited with code 0]
