@@ -1,0 +1,25 @@
+diff -Nru filelight-23.08.5/debian/changelog filelight-23.08.5/debian/changelog
+--- filelight-23.08.5/debian/changelog	2024-09-29 17:59:12.000000000 +0300
++++ filelight-23.08.5/debian/changelog	2024-11-09 13:29:20.000000000 +0200
+@@ -1,3 +1,10 @@
++filelight (4:23.08.5-0ubuntu4.1) oracular; urgency=medium
++
++  * Add missing runtime dependency on qml-module-qtquick-shapes.
++    (LP: #2084169)
++
++ -- Maia Everett <maia@everett.one>  Sat, 09 Nov 2024 13:29:20 +0200
++
+ filelight (4:23.08.5-0ubuntu4) oracular; urgency=medium
+ 
+   * Add missing runtime dependency on qml-module-org-kde-kcoreaddons.
+diff -Nru filelight-23.08.5/debian/control filelight-23.08.5/debian/control
+--- filelight-23.08.5/debian/control	2024-09-29 17:59:12.000000000 +0300
++++ filelight-23.08.5/debian/control	2024-11-09 13:29:20.000000000 +0200
+@@ -32,6 +32,7 @@
+          qml-module-org-kde-qqc2desktopstyle,
+          qml-module-org-kde-quickcharts,
+          qml-module-qt-labs-platform,
++         qml-module-qtquick-shapes,
+          ${misc:Depends},
+          ${shlibs:Depends},
+ Description: show where your diskspace is being used

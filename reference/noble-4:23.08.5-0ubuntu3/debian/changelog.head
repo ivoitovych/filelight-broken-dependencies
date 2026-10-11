@@ -1,0 +1,20 @@
+filelight (4:23.08.5-0ubuntu3) noble; urgency=medium
+
+  * No-change rebuild for CVE-2024-3094
+
+ -- William Grant <wgrant@ubuntu.com>  Mon, 01 Apr 2024 16:51:32 +1100
+
+filelight (4:23.08.5-0ubuntu2) noble; urgency=medium
+
+  * No-change rebuild against libqt5core5t64
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Fri, 15 Mar 2024 04:23:27 +0000
+
+filelight (4:23.08.5-0ubuntu1) noble; urgency=medium
+
+  * New upstream release (23.08.5)
+
+ -- Scarlett Moore <sgmoore@debian.org>  Thu, 22 Feb 2024 09:30:56 -0700
+
+filelight (4:23.08.4-0ubuntu1) noble; urgency=medium
+

@@ -1,0 +1,42 @@
+Source: filelight
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>,
+Build-Depends: cmake (>= 3.16~),
+               debhelper-compat (= 13),
+               dh-sequence-kf5,
+               extra-cmake-modules (>= 5.98.0~),
+               gettext,
+               libkf5coreaddons-dev (>= 5.98.0~),
+               libkf5doctools-dev,
+               libkf5i18n-dev (>= 5.98.0~),
+               libkf5kio-dev (>= 5.98.0~),
+               libkf5xmlgui-dev (>= 5.98.0~),
+               qtbase5-dev (>= 5.15.2~),
+               qtdeclarative5-dev (>= 5.15.2~),
+               qtquickcontrols2-5-dev (>= 5.15.2~),
+               xauth <!nocheck>,
+               xvfb <!nocheck>,
+Standards-Version: 4.6.2
+Rules-Requires-Root: no
+Homepage: https://apps.kde.org/en/filelight
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/filelight
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/filelight.git
+
+Package: filelight
+Architecture: any
+Depends: qml-module-org-kde-kcoreaddons,
+         qml-module-org-kde-kirigami2,
+         qml-module-org-kde-qqc2desktopstyle,
+         qml-module-org-kde-quickcharts,
+         qml-module-qt-labs-platform,
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: show where your diskspace is being used
+ Filelight allows you to understand your disk usage by graphically
+ representing your filesystem as a set of concentric, segmented rings.
+ .
+ It is like a pie-chart, but the segments nest, allowing you to see both
+ which directories take up all your space, and which directories
+ and files inside those directories are the real culprits.

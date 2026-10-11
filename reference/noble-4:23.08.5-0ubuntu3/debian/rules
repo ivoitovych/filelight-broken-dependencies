@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+%:
+	dh $@
+
+execute_before_dh_auto_build:
+	# print the filesystem info (that include the block sizes) to help
+	# debugging issues in DirectoryIterator/POSIXWalker
+	LANG=C stat -f .
+	# info on the test files
+	LANG=C stat autotests/iterator-tree.in/*
+
+override_dh_auto_test:
+	- dh_auto_test
