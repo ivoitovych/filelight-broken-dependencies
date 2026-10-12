@@ -1,0 +1,6 @@
+1110:kf.iconthemes: Icon theme "breeze" not found.
+1112:kf.iconthemes: Icon theme "breeze" not found.
+2087:kf.service.sycoca: Menu "applications-kmenuedit.menu" not found.
+2165:kf.guiaddons: Could not find a suitable handler for "help:/filelight"
+287:kf.i18n: Loading the "qt_" catalog failed for locale QLocale(C, Default, Default)
+288:kf.crash: Could not find drkonqi in search paths: ("/usr/bin", "/usr/lib/x86_64-linux-gnu/qt5/libexec", "/usr/lib/x86_64-linux-gnu/libexec")

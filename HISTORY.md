@@ -106,10 +106,25 @@ Chronological record of what was done in this repository. Times are local (CEST)
 - Housekeeping: untracked three raw strace dumps that had slipped into earlier commits;
   `.gitignore` now ignores `**/*.raw`.
 
+### 02:35 Automated execution review (replaces the manual session)
+- `container/Dockerfile.autotest` (fixed image + openbox for keyboard focus) and
+  `scripts/autotest-lib.sh` (host-driven xdotool/xwd helpers with scenario markers).
+- Session 1: 18 scenarios through toolbar, Overview, context menus, overflow menu, Configure.
+  Found that Qt/KF resolve helpers with `statx`, invisible to the original strace filter.
+- Session 2: statx-aware filter, software renderer, Configure tabs, Add… dialog, typed Scan
+  Folder, full root scan. Attributed missing helpers per action: Open → xdg-open (+ browser
+  fallbacks); Open Terminal Here → konsole/xterm; Handbook → khelpcenter.
+- Session 3: `sftp://` URL → KIO "Unknown protocol" dialog (kio-extras).
+- Outside-closure package set in every session: exactly the three fix-added packages.
+- Found and documented: root-window xwd shows dialogs black under Xvfb (capture by id works);
+  mapper filters for merged-usr paths, multi-owner files, directories, QML import-path noise.
+- `analysis/interactive/RESULTS.md` written; audit updated with the execution-review table.
+- Host note: this GNOME machine has xdg-utils and gnome-terminal but no konsole/xterm, so
+  "Open Terminal Here" is a silent no-op here as well (KF5 looks only for konsole/xterm).
+
 ## Open items
-- Interactive manual test session (harness ready, needs a person at the keyboard):
-  `scripts/interactive-trace.sh`, then `scripts/map-trace.sh <dir>`; checklist in
-  `analysis/interactive/README.md`.
+- (done automatically, see 02:35) Manual session remains available via
+  `scripts/interactive-trace.sh` for a real-desktop run if wanted.
 - File the SRU (needs a Launchpad account): add a noble task to LP #2084169, paste
   `sru/SRU-TEXT.md`, attach `sru/filelight_23.08.5-0ubuntu3.1.debdiff`, subscribe
   ubuntu-sponsors. See `sru/HOWTO-FILE.md`.

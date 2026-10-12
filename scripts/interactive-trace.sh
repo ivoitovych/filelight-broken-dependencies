@@ -47,7 +47,7 @@ export QML_IMPORT_TRACE=1 QT_DEBUG_PLUGINS=1
 export QT_LOGGING_RULES='kf.*=true;qt.qml.*=true;qt.qpa.plugin=true'
 export LANG=C.UTF-8
 echo "[$(date +%T.%N)] start filelight ($QT_QPA_PLATFORM)" >> /out/markers.log
-exec strace -f -tt -o /out/strace.raw -e trace=openat,stat,newfstatat,access,readlink,execve -s 400 \
+exec strace -f -tt -o /out/strace.raw -e trace=openat,stat,newfstatat,statx,access,faccessat,faccessat2,readlink,execve -s 400 \
      filelight /scratch > /out/filelight.log 2>&1
 IN
 chmod +x "$OUT/inside.sh"

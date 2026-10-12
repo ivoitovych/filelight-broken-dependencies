@@ -1,0 +1,37 @@
+1110:kf.iconthemes: Icon theme "breeze" not found.
+1112:kf.iconthemes: Icon theme "breeze" not found.
+2177:failed to openurl QUrl("")
+2393:"kf5/FrameworkIntegrationPlugin" not found
+287:kf.i18n: Loading the "qt_" catalog failed for locale QLocale(C, Default, Default)
+288:kf.crash: Could not find drkonqi in search paths: ("/usr/bin", "/usr/lib/x86_64-linux-gnu/qt5/libexec", "/usr/lib/x86_64-linux-gnu/libexec")
+3083:file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml:77: TypeError: Cannot read property 'contentItem' of null
+3084:file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml:77: TypeError: Cannot read property 'contentItem' of null
+3085:file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml:77: TypeError: Cannot read property 'contentItem' of null
+3086:file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml:77: TypeError: Cannot read property 'contentItem' of null
+3087:file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml:77: TypeError: Cannot read property 'contentItem' of null
+3641:kf.service.sycoca: Menu "applications-kmenuedit.menu" not found.
+3730:qrc:/ui/MapPage.qml:138: TypeError: Cannot read property 'isFolder' of null
+3731:qrc:/ui/MapPage.qml:130: TypeError: Cannot read property 'isFolder' of null
+3732:qrc:/ui/MapPage.qml:119: TypeError: Cannot read property 'isFolder' of null
+3733:qrc:/ui/MapPage.qml:111: TypeError: Cannot read property 'isFolder' of null
+3734:qrc:/ui/MapPage.qml:98: TypeError: Cannot read property 'displayName' of null
+3735:qrc:/ui/MapPage.qml:138: TypeError: Cannot read property 'isFolder' of null
+3736:qrc:/ui/MapPage.qml:130: TypeError: Cannot read property 'isFolder' of null
+3737:qrc:/ui/MapPage.qml:119: TypeError: Cannot read property 'isFolder' of null
+3738:qrc:/ui/MapPage.qml:111: TypeError: Cannot read property 'isFolder' of null
+3739:qrc:/ui/MapPage.qml:98: TypeError: Cannot read property 'displayName' of null
+3740:qrc:/ui/MapPage.qml:138: TypeError: Cannot read property 'isFolder' of null
+3741:qrc:/ui/MapPage.qml:130: TypeError: Cannot read property 'isFolder' of null
+3742:qrc:/ui/MapPage.qml:119: TypeError: Cannot read property 'isFolder' of null
+3743:qrc:/ui/MapPage.qml:111: TypeError: Cannot read property 'isFolder' of null
+3744:qrc:/ui/MapPage.qml:98: TypeError: Cannot read property 'displayName' of null
+3745:file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml:77: TypeError: Cannot read property 'contentItem' of null
+3746:file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml:77: TypeError: Cannot read property 'contentItem' of null
+3747:file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml:77: TypeError: Cannot read property 'contentItem' of null
+3748:file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml:77: TypeError: Cannot read property 'contentItem' of null
+3749:file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml:77: TypeError: Cannot read property 'contentItem' of null
+3750:file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml:77: TypeError: Cannot read property 'contentItem' of null
+3751:file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml:77: TypeError: Cannot read property 'contentItem' of null
+3752:file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml:77: TypeError: Cannot read property 'contentItem' of null
+3753:file:///usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/org.kde.desktop/Menu.qml:77: TypeError: Cannot read property 'contentItem' of null
+3868:kf.guiaddons: Could not find a suitable handler for "help:/filelight"

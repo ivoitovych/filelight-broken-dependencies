@@ -19,13 +19,17 @@ grep -vE 'ENOENT|EACCES|ENOTDIR' "$OUT/strace.raw" \
 # 2. execve list = external programs launched (the dynamic dependency class)
 grep -E 'execve\(' "$OUT/strace.raw" | grep -vE 'ENOENT' | grep -oE '^[0-9]+ +[0-9:.]+ execve\("[^"]+", \[[^]]*\]' > "$OUT/execve.txt"
 grep -E 'execve\(' "$OUT/strace.raw" | grep -E 'ENOENT' | grep -oE 'execve\("[^"]+"' | sort | uniq -c | sort -rn > "$OUT/execve-failed.txt"
+# 2b. helper programs looked up on PATH / libexec and not found (QProcess/KProcess
+#     resolve executables with statx/access before forking, so a missing helper
+#     never reaches execve)
+grep ENOENT "$OUT/strace.raw" | grep -oE '"(/usr/local/s?bin|/usr/s?bin|/s?bin|/usr/lib/[^"]*libexec[^"]*|/usr/games)/[^"/]+"' | tr -d '"' | xargs -rn1 basename | grep -vE '^(Qt[A-Za-z]*(\.[0-9]+)*|qt\.conf)$' | sort | uniq -c | sort -rn > "$OUT/helper-programs-missing.txt"
 # 3. failed lookups under resource dirs
 grep ENOENT "$OUT/strace.raw" | grep -oE '"[^"]+"' | tr -d '"' | sort -u \
  | grep -E '^/usr/lib/x86_64-linux-gnu/qt5/|^/usr/share/|^/usr/lib/x86_64-linux-gnu/(plugins|libexec)|^/etc/xdg|^/usr/bin/|^/usr/libexec' \
  | grep -vE '\.qmlc$|\.so\.avx2$|/icons/[^/]+/(index\.theme|[0-9]+x[0-9]+|scalable|symbolic)' > "$OUT/enoent-filtered.txt"
 # 4. error lines from Qt/KF logs
 grep -nE 'is not installed|Component is not ready|Could not find|not found|Cannot load|failed|Unknown|No such|unavailable|error|Error|warning' "$OUT/filelight.log" \
- | grep -vE 'QFactoryLoader|^.*loaded library|Got keys|Found metadata|QML_IMPORT_TRACE|qt.qml.import' | sort -u > "$OUT/log-errors.txt"
+ | grep -vE 'QFactoryLoader|^.*loaded library|Got keys|Found metadata|QML_IMPORT_TRACE|qt.qml.import|qt.qml.diskcache|qt.qml.binding|resolveType|allocatorStats' | sort -u > "$OUT/log-errors.txt"
 # 5. map loaded paths to packages inside the container (dpkg -S), and flag those
 #    not owned by any package of the pristine closure
 cut -d' ' -f2- "$OUT/loaded-paths.txt" | grep -E '^/(usr|etc|lib|lib64|bin|sbin)/' | grep -v '/$' \
@@ -34,6 +38,7 @@ docker run --rm -v "$OUT:/out" "$IMAGE" bash -c '
   cd /out
   : > path-to-package.txt
   while IFS= read -r p; do
+    [ -d "$p" ] && continue   # directory probes are not resources
     pk=$(dpkg -S -- "$p" 2>/dev/null | head -1 | cut -d: -f1)
     [ -z "$pk" ] && pk="(no package)"
     printf "%s\t%s\n" "$pk" "$p"
@@ -57,12 +62,20 @@ def t2s(t):
 loads=[]
 for l in open(os.path.join(out,'loaded-paths.txt')):
     ts,p=l.rstrip('\n').split(' ',1); loads.append((t2s(ts),p))
+# missing helper programs with timestamps (PATH / libexec lookups that failed)
+helpers=[]
+pat=re.compile(r'^\d+ +(\d+:\d+:\d+\.\d+) .*"((?:/usr/local/s?bin|/usr/s?bin|/s?bin|/usr/lib/[^"]*libexec[^"]*|/usr/games)/([^"/]+))".*ENOENT')
+for l in open(os.path.join(out,'strace.raw'),errors='replace'):
+    m=pat.match(l)
+    if m and not re.match(r'^(Qt[A-Za-z]*(\.[0-9]+)*|qt\.conf)$', m.group(3)): helpers.append((t2s(m.group(1)),m.group(3)))
 with open(os.path.join(out,'per-scenario.md'),'w') as f:
     f.write('# Loads per scenario (first-time loads only)\n\n')
     for i,(ts,label) in enumerate(marks):
         start=t2s(ts); end=t2s(marks[i+1][0]) if i+1<len(marks) else 1e12
         new=[p for (t,p) in loads if start<=t<end and ('/qt5/' in p or '/kf5/' in p or '/share/' in p or p.startswith('/usr/bin') or p.startswith('/usr/libexec'))]
+        miss=sorted(set(h for (t,h) in helpers if start<=t<end and h not in ('dbus-launch',)))
         f.write(f'## {ts} {label}\n\n')
+        if miss: f.write('**Helper programs looked up and missing:** ' + ', '.join(f'`{h}`' for h in miss) + '\n\n')
         if not new: f.write('_no new resource loads_\n\n'); continue
         for p in new: f.write(f'- `{p}`\n')
         f.write('\n')
@@ -71,6 +84,7 @@ fi
 rm -f "$OUT/.paths" "$OUT/.used"
 echo "=== packages used that are NOT in the pristine closure ==="; cat "$OUT/packages-used-outside-closure.txt"; echo "(end)"
 echo "=== files loaded that belong to no package ==="; head -20 "$OUT/files-without-package.txt"; echo "(end)"
+echo "=== helper programs looked up but missing (basename, count) ==="; cat "$OUT/helper-programs-missing.txt"; echo "(end)"
 echo "=== external programs executed ==="; grep -oE 'execve\("[^"]+"' "$OUT/execve.txt" | sort | uniq -c | sort -rn; echo "--- failed execve:"; cat "$OUT/execve-failed.txt"; echo "(end)"
 echo "=== Qt/KF error lines ==="; cat "$OUT/log-errors.txt"; echo "(end)"
 echo "=== ENOENT under resource dirs (count) ==="; wc -l < "$OUT/enoent-filtered.txt"

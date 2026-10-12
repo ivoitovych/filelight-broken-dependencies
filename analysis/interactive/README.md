@@ -61,3 +61,35 @@ Rehearsal result (20 s automatic run, initial scan only): outside-closure packag
 exactly `libqt5quickshapes5`, `qml-module-org-kde-kcoreaddons`, `qml-module-qtquick-shapes`;
 no file without a package; no external program executed; Qt/KF errors limited to the
 known icon-theme / drkonqi / locale-catalog lines.
+
+## Automated variant (no person at the keyboard)
+
+`scripts/autotest-lib.sh` drives the same closure-only image under Xvfb plus openbox
+(image `filelight-noble-autotest`, Dockerfile `container/Dockerfile.autotest`; openbox is
+needed so synthetic input gets keyboard focus). Source it and call:
+
+```
+source scripts/autotest-lib.sh
+ft_start analysis/interactive/auto-$(date +%Y%m%d-%H%M%S)   # Xvfb, openbox, traced filelight /scratch
+ft_mark "scenario label"        # timestamped marker (container clock, matches strace -tt)
+ft_click X Y [button]           # ft_move, ft_key, ft_type likewise
+ft_shot name                    # root-window screenshot -> shots/name.png
+ft_shotwin name 'Title regex'   # capture one top-level window by id (dialogs show black in
+                                #   root captures under Xvfb; by-id capture is accurate)
+ft_stop
+scripts/map-trace.sh <dir>
+```
+
+Coordinates used in the recorded sessions (1280x800 screen, window maximised):
+toolbar Back 858,20 / Forward 921,20 / Up 978,20 / Go to Overview 1062,20 / Rescan 1160,20 /
+Stop 1222,20 / overflow (Zoom, Configure, Handbook, About) 1262,20; Overview buttons Scan
+Folder 508,474 / Scan Home 623,474 / Scan Root 754,474; context menu entries are 30 px apart
+starting ~15 px below the click point (file: Open, Copy, Delete; folder: Open, Open Terminal
+Here, Center Map Here, Add to Do Not Scan List, Rescan, Copy, Delete).
+
+Important tracing detail: Qt and KF resolve helper executables with `statx`/`access` before
+forking, so a missing helper never produces an `execve`. The strace filter therefore includes
+`statx,faccessat,faccessat2`, and the mapper reports failed PATH/libexec lookups as
+"helper programs looked up but missing", attributed per scenario.
+
+Results of the recorded sessions: see `RESULTS.md` in this directory.

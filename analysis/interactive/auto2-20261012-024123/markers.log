@@ -1,0 +1,13 @@
+[00:41:25.771797876] start filelight (xcb under Xvfb+openbox)
+[00:41:37.416937370] session 2 (statx-aware strace, software QtQuick backend, session dbus): scan complete
+[00:42:14.227678173] s2-1: folder menu a/ > Open (Qt.openUrlExternally file:///scratch/a/)
+[00:42:19.232990116] s2-2: folder menu a/ > Open Terminal Here (KTerminalLauncherJob)
+[00:42:24.234710266] s2-3: overflow > Open Handbook (help:/filelight)
+[00:42:29.095438587] s2-4: Configure (Ctrl+Shift+,) with software backend
+[00:44:20.266042703] s2-5: Configure > Appearance tab
+[00:44:22.611584548] s2-6: Configure > Scanning tab > Add... (QFileDialog)
+[00:44:29.382380174] s2-7: close Configure dialog
+[00:44:31.168366799] s2-8: Go to Overview > Scan Folder > type /scratch/c + Enter
+[00:44:42.278274796] s2-9: Go to Overview > Scan Root Folder (container /)
+[00:45:09.849184207] s2-10: Stop (if still scanning), then Up/Back
+[00:45:23.153900484] end of session

@@ -1,0 +1,31 @@
+[00:35:25.268908950] start filelight (xcb under Xvfb+openbox)
+[00:35:37.410271433] scenario 1: initial scan of /scratch complete
+[00:35:58.487440336] scenario 2: hover segment (tooltip)
+[00:36:01.236709774] scenario 3: left-click into a/
+[00:36:04.117186487] scenario 3b: toolbar Back
+[00:36:06.483607670] scenario 3c: toolbar Forward
+[00:36:08.831687255] scenario 3d: toolbar Up
+[00:36:11.173390868] scenario 4: Go to Overview
+[00:36:38.894155873] scenario 5: Overview > Scan Folder (QFileDialog)
+[00:36:43.993139247] scenario 5b: Overview > Scan Home Folder
+[00:36:48.343319598] scenario 5c: toolbar Back to /scratch
+[00:36:51.690863992] scenario 6: Rescan (F5) then Stop
+[00:36:54.115442606] scenario 6b: Rescan (F5) to completion
+[00:37:00.483194736] scenario 7: Zoom In (Ctrl++) x2, Zoom Out (Ctrl+-) x1
+[00:37:03.519018344] scenario 8: right-click folder segment a/ (context menu)
+[00:37:29.095749191] scenario 8a: context menu > Open (file, Qt.openUrlExternally)
+[00:37:32.504905910] scenario 8b: context menu > Copy to clipboard
+[00:37:35.882937161] scenario 8c: context menu > Delete (file big.bin) -> confirmation
+[00:38:07.951944288] scenario 8c-confirm: Delete confirmed (KIO::del)
+[00:38:11.435098470] scenario 9: Up x2 to /scratch
+[00:39:10.040147663] scenario 10: right-click folder segment c/ (folder context menu)
+[00:39:13.572094097] scenario 11: click toolbar overflow button (right of Stop)
+[00:39:17.109051141] scenario 12: Configure via Ctrl+Shift+comma
+[00:40:20.500428627] scenario 13: folder menu > Open Terminal Here (KTerminalLauncherJob)
+[00:40:25.570228357] scenario 14: folder menu > Center Map Here
+[00:40:30.073214693] scenario 14b: Up
+[00:40:32.275847330] scenario 15: folder menu > Add to Do Not Scan List
+[00:40:36.290046799] scenario 16: folder menu > Rescan (single dir)
+[00:40:39.312186719] scenario 17: overflow > Open Handbook (Qt.openUrlExternally help:/)
+[00:40:44.384284869] scenario 18: overflow > About
+[00:41:18.612792059] end of session

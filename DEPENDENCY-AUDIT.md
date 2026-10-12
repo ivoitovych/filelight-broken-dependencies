@@ -56,14 +56,28 @@ the `kio_file` worker, and the xcb platform plugin are in the closure via Depend
 - strace ENOENTs under `qt5/qml` and `qt5/plugins`: `.qmlc` cache and `.so.avx2` probes followed by successful loads; per-theme icon directory probing; per-locale catalog probing. Qt's normal search behaviour.
 - Offscreen platform aborts with `Failed to create OpenGL context`: the offscreen QPA has no GL; Xvfb runs exit 0. Environmental.
 
+## Execution review (interactive scenarios, automated)
+
+A third dynamic pass drove every user-facing action through the closure-only image with
+Xvfb + openbox, screenshots and a statx-aware strace (`analysis/interactive/RESULTS.md`).
+It confirms the table above and adds the runtime-launched helper programs, which no static
+or linker-level check can see:
+
+| Action | Missing helper | Package | Bin |
+|---|---|---|---|
+| Open (context menu) | `xdg-open` (then browsers) | `xdg-utils` | 2, Recommends candidate; present on every Ubuntu desktop |
+| Open Terminal Here | `konsole`, `xterm` only | `konsole` / `xterm` | KF5 limitation, silent no-op on GNOME hosts without xterm; not packaging |
+| Open Handbook | `khelpcenter` | `khelpcenter` | 3 |
+| Remote URL (sftp) | KIO worker | `kio-extras` | 3, clear error dialog |
+
+Everything else (scan, navigation, dialogs, settings, delete, about, root scan) works on
+the closure alone, and the only packages used outside the pristine closure are the three
+the fix adds. The conclusion below is unchanged.
+
 ## Coverage limits
 
-- Settings pages, the Help action and the Open Folder dialog were not reached by
-  synthetic keystrokes (no window manager / focus in Xvfb). They are covered by the
-  static track only: their QML imports are a subset of the already-satisfied set, the
-  dialog is linked Qt Widgets, and Help is Bin 3.
-- Delete-from-context-menu and remote URLs were not exercised dynamically. Static
-  track: `KIO::del` on local paths uses `kio_file`, which is in `kio` (Depends).
+- Drag-and-drop onto the window was not exercised (needs a second X client); its code path
+  uses only linked Qt Quick.
 
 ## Conclusion
 

@@ -1,0 +1,7 @@
+# Fixed image + a minimal window manager so synthetic input gets keyboard focus
+# under Xvfb. openbox adds no Qt/KF/QML/icon packages (verified via package diff).
+FROM filelight-noble-fixed
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends openbox \
+ && dpkg-query -W -f='${Package}\t${Version}\n' | sort > /pkgs-after-autotest.txt \
+ && rm -rf /var/lib/apt/lists/*

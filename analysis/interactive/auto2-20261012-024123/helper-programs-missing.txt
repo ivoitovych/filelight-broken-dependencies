@@ -1,0 +1,12 @@
+      7 dbus-launch
+      6 xterm
+      6 xdg-open
+      6 systemsettings5
+      6 opera
+      6 mozilla
+      6 konsole
+      6 khelpcenter
+      6 google-chrome
+      6 firefox
+      3 drkonqi-coredump-processor
+      3 drkonqi

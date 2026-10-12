@@ -1,0 +1,71 @@
+Disabling QML cache because of low disk space
+kf.i18n: Loading the "qt_" catalog failed for locale QLocale(C, Default, Default)
+kf.crash: Could not find drkonqi in search paths: ("/usr/bin", "/usr/lib/x86_64-linux-gnu/qt5/libexec", "/usr/lib/x86_64-linux-gnu/libexec")
+kf.kirigami: Loading style plugin from "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kirigami/org.kde.desktop.so"
+kf.iconthemes: Icon theme "breeze" not found.
+kf.iconthemes: Couldn't find current icon theme, falling back to default.
+kf.iconthemes: Icon theme "breeze" not found.
+kf.kio.core.dirlister: +KCoreDirLister
+kf.kio.core.dirlister: 
+kf.kio.core.dirlister: Filelight::RemoteLister(0x5e84ff890170) url= QUrl("sftp://localhost/") keep= false reload= false
+kf.kio.core.dirlister: lister: Filelight::RemoteLister(0x5e84ff890170) silent= true
+kf.kio.core.dirlister: Filelight::RemoteLister(0x5e84ff890170)
+kf.kio.core.dirlister: Iterating over dirs ()
+kf.kio.core.dirlister: Listing directory: QUrl("sftp://localhost/")
+kf.coreaddons: Checking for plugins in ("/usr/bin/kf5/kio", "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_http.so" supports protocols ("http", "https", "webdav", "webdavs")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_help.so" supports protocols ("help")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_file.so" supports protocols ("file")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_trash.so" supports protocols ("trash")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_remote.so" supports protocols ("remote")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_ftp.so" supports protocols ("ftp")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_ghelp.so" supports protocols ("ghelp")
+kf.kio.core: Refilling KProtocolInfoFactory cache in the hope to find "sftp"
+kf.coreaddons: Checking for plugins in ("/usr/bin/kf5/kio", "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_http.so" supports protocols ("http", "https", "webdav", "webdavs")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_help.so" supports protocols ("help")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_file.so" supports protocols ("file")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_trash.so" supports protocols ("trash")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_remote.so" supports protocols ("remote")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_ftp.so" supports protocols ("ftp")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_ghelp.so" supports protocols ("ghelp")
+kf.kio.core: Refilling KProtocolInfoFactory cache in the hope to find "sftp"
+kf.coreaddons: Checking for plugins in ("/usr/bin/kf5/kio", "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_http.so" supports protocols ("http", "https", "webdav", "webdavs")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_help.so" supports protocols ("help")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_file.so" supports protocols ("file")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_trash.so" supports protocols ("trash")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_remote.so" supports protocols ("remote")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_ftp.so" supports protocols ("ftp")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_ghelp.so" supports protocols ("ghelp")
+kf.kio.core: Refilling KProtocolInfoFactory cache in the hope to find "sftp"
+kf.coreaddons: Checking for plugins in ("/usr/bin/kf5/kio", "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_http.so" supports protocols ("http", "https", "webdav", "webdavs")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_help.so" supports protocols ("help")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_file.so" supports protocols ("file")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_trash.so" supports protocols ("trash")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_remote.so" supports protocols ("remote")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_ftp.so" supports protocols ("ftp")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_ghelp.so" supports protocols ("ghelp")
+kf.kio.core.dirlister: Entry now being listed by (Filelight::RemoteLister(0x5e84ff890170))
+kf.kio.core: Refilling KProtocolInfoFactory cache in the hope to find "sftp"
+kf.coreaddons: Checking for plugins in ("/usr/bin/kf5/kio", "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_http.so" supports protocols ("http", "https", "webdav", "webdavs")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_help.so" supports protocols ("help")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_file.so" supports protocols ("file")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_trash.so" supports protocols ("trash")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_remote.so" supports protocols ("remote")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_ftp.so" supports protocols ("ftp")
+kf.kio.core: "/usr/lib/x86_64-linux-gnu/qt5/plugins/kf5/kio/kio_ghelp.so" supports protocols ("ghelp")
+kf.kio.core: couldn't create worker: "Unknown protocol 'sftp'."
+kf.kio.core.dirlister: finished listing QUrl("sftp://localhost/")
+kf.kio.core: "Unable to create KIO worker. Unknown protocol 'sftp'."
+kf.kio.core.dirlister: lister: Filelight::RemoteLister(0x5e84ff890170) silent= false
+kf.kio.core.dirlister: Filelight::RemoteLister(0x5e84ff890170)  url= QUrl("sftp://localhost/")
+kf.kio.core.dirlister: ~KCoreDirLister KCoreDirLister(0x5e84ff890170)
+kf.kio.core.dirlister: lister: KCoreDirLister(0x5e84ff890170) silent= false
+kf.kio.core.dirlister: KCoreDirLister(0x5e84ff890170)  url= QUrl("sftp://localhost/")
+kf.kio.core.dirlister: KCoreDirLister(0x5e84ff890170)
+kf.kio.core.dirlister: Iterating over dirs (QUrl("sftp://localhost/"))
+kf.kio.core.dirlister: KCoreDirLister(0x5e84ff890170)  _url:  QUrl("sftp://localhost/")
+filelight exit=143

@@ -1,0 +1,3 @@
+libqt5quickshapes5
+qml-module-org-kde-kcoreaddons
+qml-module-qtquick-shapes
