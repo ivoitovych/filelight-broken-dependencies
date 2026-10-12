@@ -1,0 +1,14 @@
+8112 /usr/share/icons/hicolor
+216 /usr/lib/x86_64-linux-gnu/qt5/qml
+7 /usr/share/qt5/translations
+5 /usr/lib/x86_64-linux-gnu/qt5/plugins
+3 /usr/share/locale/en
+2 /usr/share/fonts/truetype
+1 /usr/share/qt5/qtlogging.ini
+1 /usr/share/pixmaps/hicolor
+1 /usr/share/pixmaps/breeze-internal
+1 /usr/share/pixmaps/breeze
+1 /usr/share/icons/breeze-internal
+1 /usr/share/icons/breeze
+1 /usr/share/fonts/.uuid
+1 /usr/share/filelight/icons

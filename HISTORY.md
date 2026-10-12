@@ -77,10 +77,25 @@ Chronological record of what was done in this repository. Times are local (CEST)
   noise, coverage limits, conclusion that the deficiency is exactly two missing Depends.
 - Commit `8640da0`.
 
+### 02:10 Interactive trace harness and SRU preparation started
+- Smoke-tested running the closure-only container's filelight on the real desktop
+  (XWayland, uid 1000, GPU device). Works.
+- Wrote `scripts/interactive-trace.sh` (launch with scenario-marker prompt) and
+  `scripts/map-trace.sh` (map every loaded file to its package via the container's dpkg,
+  diff against the pristine closure, list executed external programs, split per scenario).
+  Rehearsal found and fixed: merged-usr `/lib` paths not resolved by `dpkg -S`; multi-owner
+  `dpkg -S` output; missing session D-Bus in the container (now passed through). Control
+  result after fixes: outside-closure set is exactly the three fix-added packages.
+- `analysis/interactive/README.md`: how to run, scenario checklist, output description.
+- Noted host root filesystem at 96 % (18 GB free); Docker holds 32 GB images / 41 GB build
+  cache from unrelated work. Not pruned.
+- Started preparation of the noble SRU debdiff (4:23.08.5-0ubuntu3.1) with a dedicated build
+  container, end-to-end verification against the pristine image, lintian, and SRU text
+  (`sru/`).
+
 ## Open items
-- Interactive manual test session: run the fixed container image on the real display with
-  full tracing while scenarios are exercised by hand (segment navigation, context-menu actions
-  that launch external programs, settings, about, help, open dialog, drag-and-drop, remote URL),
-  then map every loaded path to its package via the container's dpkg database.
+- Interactive manual test session (harness ready, needs a person at the keyboard):
+  `scripts/interactive-trace.sh`, then `scripts/map-trace.sh <dir>`; checklist in
+  `analysis/interactive/README.md`.
 - Prepare noble debdiff 4:23.08.5-0ubuntu3.1, test-build and verify in the pristine container,
   draft SRU text, then add a noble task to Launchpad #2084169 with the debdiff attached.

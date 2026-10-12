@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Mon, 12 Oct 2026 00:14:17 +0000
+Source: filelight
+Built-For-Profiles: noudeb
+Architecture: source
+Version: 4:23.08.5-0ubuntu3.1
+Distribution: noble
+Urgency: medium
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Changed-By: Iaroslav Voitovych <yaroslav.voytovych@gmail.com>
+Launchpad-Bugs-Fixed: 2084169
+Changes:
+ filelight (4:23.08.5-0ubuntu3.1) noble; urgency=medium
+ .
+   * Add missing runtime dependencies on qml-module-org-kde-kcoreaddons and
+     qml-module-qtquick-shapes. Without them the scan page fails to load with
+     'module "QtQuick.Shapes" is not installed' / 'module "org.kde.kcoreaddons"
+     is not installed' on any system without Plasma. (LP: #2084169)
+Checksums-Sha1:
+ 23e70fd5f3503e0d9b336858ed995a001a2ad310 1857 filelight_23.08.5-0ubuntu3.1.dsc
+ 64f29b9592504dd6dd44ec48341247c0039ea344 15624 filelight_23.08.5-0ubuntu3.1.debian.tar.xz
+ 92eb4412b294549e1acac84477f70463818f386b 24223 filelight_23.08.5-0ubuntu3.1_source.buildinfo
+Checksums-Sha256:
+ 0f914cddbd876a79c713a26f9a5acf3e1b826534443826ff6975b5323daed302 1857 filelight_23.08.5-0ubuntu3.1.dsc
+ 1474f2ca93c66318436b5b834c05d18463b4465691db60564daf817821a117fa 15624 filelight_23.08.5-0ubuntu3.1.debian.tar.xz
+ 139a8a5f7be9af91fc3b0ae7ea1f79480a3bd8930ced54371f7e64e30f748ea9 24223 filelight_23.08.5-0ubuntu3.1_source.buildinfo
+Files:
+ 3e4b716f988f5be03d6f70ebec42e0d9 1857 kde optional filelight_23.08.5-0ubuntu3.1.dsc
+ d36967e78efddc29886c4aee1c215605 15624 kde optional filelight_23.08.5-0ubuntu3.1.debian.tar.xz
+ d0a23f99f1e1a98b2066f1496305cad3 24223 kde optional filelight_23.08.5-0ubuntu3.1_source.buildinfo
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>

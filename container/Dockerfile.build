@@ -1,0 +1,8 @@
+# Build environment for the noble filelight SRU (source + binary build).
+FROM ubuntu:24.04
+ENV DEBIAN_FRONTEND=noninteractive
+RUN printf 'Types: deb deb-src\nURIs: http://archive.ubuntu.com/ubuntu/\nSuites: noble noble-updates noble-security\nComponents: main universe\nSigned-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg\n' > /etc/apt/sources.list.d/ubuntu.sources \
+ && apt-get update \
+ && apt-get install -y --no-install-recommends devscripts dpkg-dev fakeroot build-essential lintian debhelper quilt \
+ && apt-get build-dep -y filelight \
+ && rm -rf /var/lib/apt/lists/*

@@ -1,0 +1,4 @@
+step3 exit=134
+step4 exit=134
+step5 exit=0
+step5-strace exit=0

@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 12 Oct 2026 00:14:17 +0000
+Source: filelight
+Binary: filelight
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 4:23.08.5-0ubuntu3.1
+Distribution: noble
+Urgency: medium
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Changed-By: Iaroslav Voitovych <yaroslav.voytovych@gmail.com>
+Description:
+ filelight  - show where your diskspace is being used
+Launchpad-Bugs-Fixed: 2084169
+Changes:
+ filelight (4:23.08.5-0ubuntu3.1) noble; urgency=medium
+ .
+   * Add missing runtime dependencies on qml-module-org-kde-kcoreaddons and
+     qml-module-qtquick-shapes. Without them the scan page fails to load with
+     'module "QtQuick.Shapes" is not installed' / 'module "org.kde.kcoreaddons"
+     is not installed' on any system without Plasma. (LP: #2084169)
+Checksums-Sha1:
+ 433162fabb6fb920b80aaed5ccbacf9be6136b84 2446962 filelight-dbgsym_23.08.5-0ubuntu3.1_amd64.ddeb
+ 86e33ebff3e11a9a8b038484bc8c67d84a659351 24588 filelight_23.08.5-0ubuntu3.1_amd64.buildinfo
+ a2c8b1c0485b03181e46a81d56f87ef7da869f7a 765950 filelight_23.08.5-0ubuntu3.1_amd64.deb
+Checksums-Sha256:
+ 3082637a05515c822c7c9a57c6e331101cfe10f20b42dd3075d256c4d0d52150 2446962 filelight-dbgsym_23.08.5-0ubuntu3.1_amd64.ddeb
+ 9d5de20619c330112fdada9605b00f7fffee31edeb610d0c812d6660cfeb8b0a 24588 filelight_23.08.5-0ubuntu3.1_amd64.buildinfo
+ fd869ca6c28cf5bde8b2d84065d0172d6ecb8b50608e788847307dd81c328bd2 765950 filelight_23.08.5-0ubuntu3.1_amd64.deb
+Files:
+ 36e2a22b2479736652ea57c69fbc344b 2446962 debug optional filelight-dbgsym_23.08.5-0ubuntu3.1_amd64.ddeb
+ d0f5395792e4f068c2ee9066afd01bf4 24588 kde optional filelight_23.08.5-0ubuntu3.1_amd64.buildinfo
+ 2a3ad61b7e0d2da31a74f0690e25cf1f 765950 kde optional filelight_23.08.5-0ubuntu3.1_amd64.deb
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>

@@ -1,0 +1,2 @@
+running with root privileges is not recommended!
+lintian exit=0

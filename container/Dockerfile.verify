@@ -1,0 +1,6 @@
+# Pristine noble + the rebuilt SRU package. Build context: sru/
+FROM filelight-noble-pristine
+COPY filelight_23.08.5-0ubuntu3.1_amd64.deb /tmp/
+RUN apt-get update && apt-get install -y /tmp/filelight_23.08.5-0ubuntu3.1_amd64.deb \
+ && dpkg-query -W -f='${Package}\t${Version}\n' | sort > /pkgs-after-verify.txt \
+ && rm -rf /var/lib/apt/lists/*

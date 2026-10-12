@@ -1,0 +1,14 @@
+QFactoryLoader::QFactoryLoader() checking directory path "/usr/lib/x86_64-linux-gnu/qt5/plugins/iconengines" ...
+QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/iconengines/KIconEnginePlugin.so"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/iconengines/KIconEnginePlugin.so, metadata=
+Got keys from plugin meta data ("kiconengine")
+QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/iconengines/libqsvgicon.so"
+Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/iconengines/libqsvgicon.so, metadata=
+QFactoryLoader::QFactoryLoader() checking directory path "/usr/bin/iconengines" ...
+kf.i18n: Loading the "qt_" catalog failed for locale QLocale(C, Default, Default)
+kf.crash: Could not find drkonqi in search paths: ("/usr/bin", "/usr/lib/x86_64-linux-gnu/qt5/libexec", "/usr/lib/x86_64-linux-gnu/libexec")
+kf.iconthemes: Icon theme "breeze" not found.
+kf.iconthemes: Couldn't find current icon theme, falling back to default.
+kf.iconthemes: Icon theme "breeze" not found.
+            "image/vnd.microsoft.icon",
+            "image/vnd.microsoft.icon"
