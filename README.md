@@ -79,6 +79,12 @@ dynamic tracing in a pristine noble container confirm the two modules below are 
 
 ## Fix
 
+A tested SRU debdiff for noble (4:23.08.5-0ubuntu3.1), the rebuilt package, its
+verification in the pristine container, lintian output and the SRU bug text are under
+[`sru/`](./sru/). Nothing has been filed yet.
+
+For this machine only:
+
 Install the two missing QML modules (both are in noble/universe, ~160 KB total):
 
 ```

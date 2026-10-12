@@ -93,9 +93,23 @@ Chronological record of what was done in this repository. Times are local (CEST)
   container, end-to-end verification against the pristine image, lintian, and SRU text
   (`sru/`).
 
+### 02:16 Noble SRU prepared and verified
+- `container/Dockerfile.build`: noble build image with deb-src and filelight build-deps.
+- `sru/build-debdiff.sh`: fetches 4:23.08.5-0ubuntu3 source, adds the two Depends, writes
+  changelog 4:23.08.5-0ubuntu3.1 (LP: #2084169), builds source and binary, runs debdiff and
+  lintian. Lintian: no tags.
+- `container/Dockerfile.verify`: pristine image + the rebuilt deb. apt pulled both QML modules
+  in automatically; trace shows zero "is not installed" / "Component is not ready" lines and
+  both plugins loaded (`sru/verify-result.md`).
+- `sru/SRU-TEXT.md` (Impact / Test Plan / Where problems could occur / Other Info) and
+  `sru/HOWTO-FILE.md` (add noble task to LP #2084169, attach debdiff, subscribe sponsors).
+- Housekeeping: untracked three raw strace dumps that had slipped into earlier commits;
+  `.gitignore` now ignores `**/*.raw`.
+
 ## Open items
 - Interactive manual test session (harness ready, needs a person at the keyboard):
   `scripts/interactive-trace.sh`, then `scripts/map-trace.sh <dir>`; checklist in
   `analysis/interactive/README.md`.
-- Prepare noble debdiff 4:23.08.5-0ubuntu3.1, test-build and verify in the pristine container,
-  draft SRU text, then add a noble task to Launchpad #2084169 with the debdiff attached.
+- File the SRU (needs a Launchpad account): add a noble task to LP #2084169, paste
+  `sru/SRU-TEXT.md`, attach `sru/filelight_23.08.5-0ubuntu3.1.debdiff`, subscribe
+  ubuntu-sponsors. See `sru/HOWTO-FILE.md`.
