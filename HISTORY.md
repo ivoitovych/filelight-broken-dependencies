@@ -122,6 +122,16 @@ Chronological record of what was done in this repository. Times are local (CEST)
 - Host note: this GNOME machine has xdg-utils and gnome-terminal but no konsole/xterm, so
   "Open Terminal Here" is a silent no-op here as well (KF5 looks only for konsole/xterm).
 
+## 2026-10-13
+
+### Repository published
+- Created the public repository https://github.com/ivoitovych/filelight-broken-dependencies
+  and pushed `main` (remote `origin`). Replaced the repository-link placeholder in
+  `sru/SRU-TEXT.md` with the URL.
+- Note on the 02:10 entry above: by 06:40 on 2026-10-12 the Docker footprint on this host was
+  2.8 GB of images and 78 MB of build cache with 118 GB free on the root filesystem; the earlier
+  figures no longer apply.
+
 ## Open items
 - (done automatically, see 02:35) Manual session remains available via
   `scripts/interactive-trace.sh` for a real-desktop run if wanted.

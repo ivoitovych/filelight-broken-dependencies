@@ -22,7 +22,7 @@ The fix adds the two missing dependencies, qml-module-org-kde-kcoreaddons and qm
 3. Enable noble-proposed, then run `sudo apt install filelight/noble-proposed`.
 4. After the fix: apt pulls in qml-module-org-kde-kcoreaddons and qml-module-qtquick-shapes automatically, no "is not installed" error is printed, and the radial map renders.
 
-A reproducible container-based check exists in the investigation repository (link to be added when published): the container/ directory holds the Dockerfiles (pristine noble image, build image, verify image) and the analysis/ directory holds the trace script and results (xvfb + strace). With the fixed package, the trace shows no "is not installed" or "Component is not ready" lines, and QtQuick/Shapes and org/kde/kcoreaddons are loaded from /usr/lib/x86_64-linux-gnu/qt5/qml/.
+A reproducible container-based check exists in the investigation repository, https://github.com/ivoitovych/filelight-broken-dependencies : the container/ directory holds the Dockerfiles (pristine noble image, build image, verify image) and the analysis/ directory holds the trace script and results (xvfb + strace). With the fixed package, the trace shows no "is not installed" or "Component is not ready" lines, and QtQuick/Shapes and org/kde/kcoreaddons are loaded from /usr/lib/x86_64-linux-gnu/qt5/qml/.
 
 [ Where problems could occur ]
 
