@@ -169,9 +169,24 @@ Chronological record of what was done in this repository. Times are local (CEST)
   aligned with the audit. `build-debdiff.sh` now checks the debdiff and lintian exit statuses
   (script-only change; the committed artefacts are from the 01:48 UTC build).
 
+### Filed on Launchpad (04:26–04:40 CEST)
+- LP #2084169, driven through the browser with the user watching, each step checked against the
+  archive and the Launchpad API first (noble still 4:23.08.5-0ubuntu3, nothing in -proposed or
+  -updates, bug untouched since 2025-07-03, debdiff checksum equal to the committed one, control
+  hunk applies to the archive control).
+- Title changed to the SRU title; description replaced with the four SRU sections, original
+  oracular text kept below a heading. "Nominate for series" refused ("You do not have permission
+  to nominate this bug"), left to the sponsor as planned. Comment posted with the debdiff attached
+  and flagged as a patch; submitter subscribed; ubuntu-sponsors subscribed. All confirmed through
+  the API (attachment present, comment by yaroslav-voytovych at 02:37:55 UTC, subscribers
+  linneris, yaroslav-voytovych, ubuntu-sponsors).
+
 ## Open items
 - (done automatically, see 02:35) Manual session remains available via
   `scripts/interactive-trace.sh` for a real-desktop run if wanted.
-- File the SRU on LP #2084169 following `sru/HOWTO-FILE.md` (retitle, description from
-  `sru/SRU-TEXT.md`, attach `sru/filelight_23.08.5-0ubuntu3.1.debdiff` as patch, subscribe
-  ubuntu-sponsors), then verify from noble-proposed.
+- Sponsorship: wait for a sponsor on LP #2084169 (noble task nomination and the Invalid
+  development task are theirs to settle); answer review requests; if nothing moves in two weeks,
+  ping #kubuntu-devel.
+- After acceptance into noble-proposed: run the Test Plan on a clean noble GNOME system with the
+  archive build, post the result, swap `verification-needed-noble` for `verification-done-noble`,
+  then watch for a week after release (see `sru/HOWTO-FILE.md`).
