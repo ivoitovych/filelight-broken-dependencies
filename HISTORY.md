@@ -206,11 +206,18 @@ Chronological record of what was done in this repository. Times are local (CEST)
   oracular debdiff is also patch-flagged. Plan B after two weeks: merge proposal against
   `kubuntu_noble_archive`.
 
+### Noble-task request posted (07:03 CEST)
+- One message in the Matrix room #devel:ubuntu.com (Element web, the user's own account, sent
+  after confirmation): asks a bug supervisor to add the noble task and set the devel task Fix
+  Released, explains the closed-task invisibility, and names the 0ubuntu3.1 debdiff. Ubottu
+  expanded the bug link in the room. No other channel used.
+
 ## Open items
 - (done automatically, see 02:35) Manual session remains available via
   `scripts/interactive-trace.sh` for a real-desktop run if wanted.
-- Get the noble task added to LP #2084169 (ask in #ubuntu-bugs or #kubuntu-devel); until then
-  the bug is not in the sponsoring queue. Then wait for a sponsor; answer review requests.
+- Wait for a bug supervisor to add the noble task to LP #2084169 (requested in #devel:ubuntu.com
+  on 2026-10-18); fallback after a few quiet days: #ubuntu-bugs. Then wait for a sponsor; answer
+  review requests; merge proposal against `kubuntu_noble_archive` only after two silent weeks.
 - After acceptance into noble-proposed: run the Test Plan on a clean noble GNOME system with the
   archive build, post the result, swap `verification-needed-noble` for `verification-done-noble`,
   then watch for a week after release (see `sru/HOWTO-FILE.md`).
