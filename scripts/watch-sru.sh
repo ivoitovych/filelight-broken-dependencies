@@ -13,6 +13,7 @@
 #      activity, noble task added, verification-needed-noble tag)
 #   2. filelight appearing in noble-proposed or noble-updates (verification clock starts)
 set -u
+set -o pipefail
 BUG=2084169
 STATE_DIR=${XDG_STATE_HOME:-$HOME/.local/state}/filelight-sru-watch
 mkdir -p "$STATE_DIR"
@@ -48,7 +49,7 @@ for p in noble noble-proposed noble-updates; do
   idx=$(curl -fsS --max-time 120 "https://archive.ubuntu.com/ubuntu/dists/$p/universe/binary-amd64/Packages.gz" | zcat 2>/dev/null) \
     || fail "archive index download failed: $p"
   [ -n "$idx" ] || fail "archive index empty: $p"
-  v=$(printf '%s\n' "$idx" | awk '/^Package: filelight$/{f=1} f&&/^Version:/{print $2; exit}')
+  v=$(awk '/^Package: filelight$/{f=1} f&&/^Version:/{print $2; exit}' <<<"$idx")
   echo "archive $p: ${v:-none}" >> "$NOW"
 done
 
