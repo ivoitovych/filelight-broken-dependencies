@@ -181,12 +181,22 @@ Chronological record of what was done in this repository. Times are local (CEST)
   the API (attachment present, comment by yaroslav-voytovych at 02:37:55 UTC, subscribers
   linneris, yaroslav-voytovych, ubuntu-sponsors).
 
+### Public re-verification (after filing)
+- Anonymous fetch of the bug page, the API and the attachment: new title and description render
+  with all four sections and the original report below; comment and patch-flagged attachment
+  present; the downloaded debdiff has the same sha256 as the committed one; direct subscribers
+  linneris, yaroslav-voytovych, ubuntu-sponsors; two notification mails already in the
+  kubuntu-bugs list archive.
+- Flaw found: every task on the bug is closed, so `searchTasks(bug_subscriber=ubuntu-sponsors)`
+  with the default (open) status filter, which is what the sponsoring queue report uses, does not
+  return it. Until a bug supervisor adds the noble task the request is invisible in the sponsors'
+  queue. HOWTO updated: ask in #ubuntu-bugs or #kubuntu-devel now, not in two weeks.
+
 ## Open items
 - (done automatically, see 02:35) Manual session remains available via
   `scripts/interactive-trace.sh` for a real-desktop run if wanted.
-- Sponsorship: wait for a sponsor on LP #2084169 (noble task nomination and the Invalid
-  development task are theirs to settle); answer review requests; if nothing moves in two weeks,
-  ping #kubuntu-devel.
+- Get the noble task added to LP #2084169 (ask in #ubuntu-bugs or #kubuntu-devel); until then
+  the bug is not in the sponsoring queue. Then wait for a sponsor; answer review requests.
 - After acceptance into noble-proposed: run the Test Plan on a clean noble GNOME system with the
   archive build, post the result, swap `verification-needed-noble` for `verification-done-noble`,
   then watch for a week after release (see `sru/HOWTO-FILE.md`).
