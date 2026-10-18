@@ -1,0 +1,11 @@
+[Unit]
+Description=Run the filelight SRU watch once a day
+
+[Timer]
+OnCalendar=daily
+RandomizedDelaySec=1h
+# a day the machine was off runs at next boot instead of being skipped
+Persistent=true
+
+[Install]
+WantedBy=timers.target

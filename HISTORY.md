@@ -196,6 +196,11 @@ Chronological record of what was done in this repository. Times are local (CEST)
 - `scripts/watch-sru.sh`: daily anonymous check of LP #2084169 (tasks, tags, comments,
   subscribers) and of filelight in noble, noble-proposed and noble-updates; prints a CHANGE block
   and exits 10 when anything moved. Baseline recorded.
+- Reviewer pass on the watcher: a failed download could previously be recorded as a result (the
+  first baseline indeed contained a curl error line) and overwrite the baseline. Now every query
+  must succeed or the run aborts with exit 1 and the baseline is kept; archive fetched over HTTPS;
+  notification only on change. `scripts/systemd/` holds a user service (SuccessExitStatus=10)
+  and a daily timer (Persistent=true) with an installer; installation is the user's call.
 - HOWTO: the documented place to ask for the noble task is the Matrix room #devel:ubuntu.com
   (#ubuntu-bugs as fallback); one post in one place; name the 0ubuntu3.1 debdiff because the old
   oracular debdiff is also patch-flagged. Plan B after two weeks: merge proposal against

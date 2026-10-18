@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily check of the filelight noble SRU (LP #2084169) and the noble pockets
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+# exit 10 = change detected, which is a success for this unit
+SuccessExitStatus=10
+ExecStart=%h/exp/filelight-broken-dependencies/scripts/watch-sru.sh --notify
