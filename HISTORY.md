@@ -158,6 +158,17 @@ Chronological record of what was done in this repository. Times are local (CEST)
 - README: status line, three-layer reading guide for sponsors, LP #2083152, first qmldeps
   version. Host-disk and Docker notes removed from this log.
 
+### Second review pass (same day)
+- Three reviewers re-read 2b1cfcb; all said file after text fixes, no rebuild. Applied: Test Plan
+  step 2 expects a non-zero count (4 in all pre-fix traces: each module is reported twice), both
+  grep checks use `timeout`; step 6 now describes a real upgrade with the modules pre-installed;
+  "reporter" became "submitter"; one bug title; the "no other package depends on filelight"
+  sentence was wrong (the kdeutils metapackage does, `>= 4:23.08.5`) and was corrected; LP
+  #2083152 described precisely (kcoreaddons half, Kubuntu 24.10, Fix Released); Debian #1030549
+  checked against the BTS. HOWTO no longer suggests marking duplicates. README conclusion
+  aligned with the audit. `build-debdiff.sh` now checks the debdiff and lintian exit statuses
+  (script-only change; the committed artefacts are from the 01:48 UTC build).
+
 ## Open items
 - (done automatically, see 02:35) Manual session remains available via
   `scripts/interactive-trace.sh` for a real-desktop run if wanted.

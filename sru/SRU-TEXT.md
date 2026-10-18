@@ -1,6 +1,6 @@
-# [SRU] filelight (noble): missing runtime dependencies on qml-module-qtquick-shapes and qml-module-org-kde-kcoreaddons
+# Bug title: [SRU] filelight: scan page never loads, missing Depends on qml-module-qtquick-shapes and qml-module-org-kde-kcoreaddons
 
-Suggested bug title: `[SRU] filelight: scan page never loads, missing Depends on qml-module-qtquick-shapes and qml-module-org-kde-kcoreaddons`
+(The four sections below go into the bug description.)
 
 [ Impact ]
 
@@ -25,9 +25,10 @@ Primary recipe (any tester, no knowledge of the package needed). Use a disposabl
        sudo apt install filelight
        dpkg-query -W filelight          # expect 4:23.08.5-0ubuntu3
 
-2. Reproduce the failure: launch `filelight` from a terminal, click Scan Home Folder. Nothing happens. Greppable check:
+2. Reproduce the failure: launch `filelight` from a terminal, click Scan Home Folder. Nothing happens. Greppable check (the errors are printed at startup; `timeout` ends filelight so grep can report):
 
-       filelight /usr 2>&1 | grep -c 'is not installed'     # expect 2 (close the window to end it)
+       timeout 20 filelight /usr 2>&1 | grep -c 'is not installed'
+       # expect a non-zero count; 4 in our runs, each module is reported twice
 
 3. Close filelight. Enable noble-proposed with pinning so only filelight is taken from it, following https://wiki.ubuntu.com/Testing/EnableProposed, then:
 
@@ -42,11 +43,11 @@ Primary recipe (any tester, no knowledge of the package needed). Use a disposabl
        apt-cache policy filelight       # Installed from noble-proposed
        dpkg -l qml-module-qtquick-shapes qml-module-org-kde-kcoreaddons | grep '^ii'   # both present
 
-5. Launch `filelight`, click Scan Home Folder, wait for the scan to finish. The radial map renders; clicking a segment navigates into it; Back returns. Greppable check:
+5. Launch `filelight`, click Scan Home Folder, wait for the scan to finish. The radial map renders; clicking a segment navigates into it; Back returns. This is the acceptance criterion. Greppable check:
 
-       filelight /usr 2>&1 | grep -c 'is not installed'     # expect 0
+       timeout 20 filelight /usr 2>&1 | grep -c 'is not installed'     # expect 0
 
-6. Regression check on a system that already has the modules (any Kubuntu or Plasma install, or the VM after step 4): `sudo apt install filelight/noble-proposed` upgrades only filelight, removes nothing, and the scan still works.
+6. Regression check for systems that already have the modules: on a Plasma system still at 4:23.08.5-0ubuntu3, or on a second copy of the VM taken after step 1 with the two modules installed by hand (`sudo apt install qml-module-qtquick-shapes qml-module-org-kde-kcoreaddons`), run `sudo apt install filelight/noble-proposed`. Expect 1 upgraded, 0 newly installed, 0 to remove, and the scan still works.
 
 Alternative, fully scripted: the investigation repository https://github.com/ivoitovych/filelight-broken-dependencies contains Dockerfiles for a pristine noble image and a verify image, and a trace script that runs filelight under Xvfb with QML import tracing and strace. With the fixed package the trace shows zero "is not installed" and zero "Component is not ready" lines and both QML plugins loading from /usr/lib/x86_64-linux-gnu/qt5/qml/. The steps above are sufficient on their own; the repository is supporting evidence.
 
@@ -61,13 +62,13 @@ The change is two added Depends on packages that have been in noble/universe sin
 5. Systems that already have the modules (Plasma) see only the version bump. Test Plan step 6 covers this.
 6. A dependency missing on one architecture would make filelight uninstallable there. Both modules (and libqt5quickshapes5) are published in noble for every architecture filelight is built on: amd64, arm64, armhf, ppc64el, riscv64 and s390x.
 
-If the update were wrong in one of these ways, filelight would remain as unusable as it is today; no other package depends on filelight.
+If the update were wrong in one of these ways, filelight would remain as unusable as it is today. The only reverse dependency in noble is the kdeutils metapackage (Depends: filelight (>= 4:23.08.5)), which the version bump keeps satisfied; unburden-home-dir lists filelight among alternative Suggests.
 
 [ Other Info ]
 
 * Fixed in the development release and all later releases: Ubuntu switched filelight to dh-sequence-qmldeps (automatic QML dependencies) with 4:25.08.1-0ubuntu1 in questing. resolute (4:25.12.3-0ubuntu1), stonking (4:26.08.1-0ubuntu1) and the development series carry the generated dependencies; stonking's binary package depends on qml6-module-qtquick-shapes and qml6-module-org-kde-coreaddons. jammy ships the pre-QML 4:21.12.3 and is not affected. noble is therefore the only supported release with the defect.
 * Debian declared qml-module-org-kde-kcoreaddons in 4:22.12.2-1 (Debian #1030549) and fixed the Shapes dependency through dh-sequence-qmldeps in 4:25.03.90-1 (Debian #1082018).
 * History on this bug: oracular's 4:23.08.5-0ubuntu4 had already added qml-module-org-kde-kcoreaddons, so the earlier debdiff here (23.08.5-0ubuntu4.1, by Maia Everett) added only qml-module-qtquick-shapes. It expired as Won't Fix at oracular's end of life, not on technical grounds. noble's package has neither module, so the noble debdiff adds both.
-* Same defect reported in LP: #2097146, LP: #2089868 and LP: #2083152; upstream KDE bug 496765 was closed as a downstream packaging issue.
+* Related reports: LP: #2097146 (Shapes, Ubuntu task New, Debian task Fix Released) and LP: #2089868 (Confirmed) describe the same noble failure; LP: #2083152 is the kcoreaddons half on Kubuntu 24.10, Fix Released there by 0ubuntu4. Upstream KDE bug 496765 was closed as a downstream packaging issue.
 * Proposed upload: filelight 4:23.08.5-0ubuntu3.1 (debdiff attached: filelight_23.08.5-0ubuntu3.1.debdiff). Changes limited to debian/control and debian/changelog. Built and lintian-clean in a noble build container; installed and traced in a pristine noble container.
-* The reporter will verify the package from noble-proposed following the Test Plan and will watch for regressions after release.
+* The submitter of this SRU (Iaroslav Voitovych) will verify the package from noble-proposed following the Test Plan and will watch for regressions after release.

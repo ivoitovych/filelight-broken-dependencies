@@ -11,7 +11,7 @@ The Launchpad bug is the submission. This repository is supporting evidence; a s
 
 Bug: https://bugs.launchpad.net/ubuntu/+source/filelight/+bug/2084169
 
-1. **Title**: change it to the title suggested at the top of `SRU-TEXT.md`. Any Launchpad user can edit title and description.
+1. **Title**: change it to the bug title given at the top of `SRU-TEXT.md`. Any Launchpad user can edit title and description.
 2. **Description**: replace it with the four sections from `SRU-TEXT.md`. Keep the original oracular text below under a heading such as "Original report (oracular, 2024)". The SRU team reads the description, not the comments.
 3. **noble task**: use "Nominate for series", pick noble. Nominations need approval by a bug supervisor; the sponsor usually does this at upload time. Do not wait for it. Do not change the oracular task (Won't Fix) or the plucky task.
 4. **Development task**: the generic "filelight (Ubuntu)" task is currently Invalid. The SRU rule is that the development release must be fixed first; it is, since 4:25.08.1-0ubuntu1 (questing) through dh-sequence-qmldeps. Ask the sponsor in your comment to reconcile the task (Fix Released with that version). Do not change it yourself.
@@ -21,7 +21,7 @@ Bug: https://bugs.launchpad.net/ubuntu/+source/filelight/+bug/2084169
 
    > noble is still affected: filelight 4:23.08.5-0ubuntu3 declares neither qml-module-qtquick-shapes nor qml-module-org-kde-kcoreaddons, so the scan page never loads on Ubuntu Desktop. Debdiff for 4:23.08.5-0ubuntu3.1 attached (debian/control and changelog only), built in a noble container, installed and traced in a pristine noble container: both modules are pulled in and the scan works. Description updated to the SRU template for noble. Maia Everett's earlier oracular debdiff added only Shapes because oracular's 0ubuntu4 already had kcoreaddons; noble needs both. Investigation and reproducible checks: https://github.com/ivoitovych/filelight-broken-dependencies . Could a bug supervisor approve the noble task and set the development task to Fix Released (fixed since 4:25.08.1-0ubuntu1)? I will verify from noble-proposed.
 
-8. **Related bugs**: on LP #2097146, LP #2089868 and LP #2083152 add a short comment pointing to #2084169 as the bug carrying the noble SRU, and mark them as duplicates of it if you have the rights; otherwise ask the sponsor to. Only bugs listed in the upload's Launchpad-Bugs-Fixed get the SRU bot's verification handling.
+8. **Related bugs**: the SRU description already cross-references LP #2097146, LP #2089868 and LP #2083152. Do not mark anything a duplicate yourself: #2083152 records a different half of the fix (kcoreaddons, oracular, Fix Released) and #2097146 carries its own Debian link. Once the SRU is moving, a one-line pointer comment on #2097146 and #2089868 is enough; whether they become duplicates of #2084169 is the sponsor's or a triager's call. Only bugs listed in the upload's Launchpad-Bugs-Fixed get the SRU bot's verification handling, which is why the debdiff references #2084169.
 9. Optional accelerator: mention the bug in #kubuntu-devel on Libera. Kubuntu developers have upload rights for filelight and see kubuntu-bugs mail already.
 
 Do not set the task to Triaged or set an importance; those need Ubuntu Bug Control. Do not contact the SRU team before upload; the sponsor or patch pilot is the first contact.

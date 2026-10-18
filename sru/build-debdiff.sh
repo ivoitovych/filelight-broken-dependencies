@@ -34,9 +34,12 @@ cat debian/changelog; } > /tmp/cl && mv /tmp/cl debian/changelog
 dpkg-buildpackage -S -us -uc -d || exit 1
 cd /build || exit 1
 debdiff filelight_23.08.5-0ubuntu3.dsc filelight_23.08.5-0ubuntu3.1.dsc > /out/filelight_23.08.5-0ubuntu3.1.debdiff
+rc=$?; [ "$rc" -le 1 ] || exit 1   # debdiff exits 1 when the packages differ, which is expected
+[ -s /out/filelight_23.08.5-0ubuntu3.1.debdiff ] || exit 1
 cd filelight-23.08.5 || exit 1
 dpkg-buildpackage -b -us -uc || { echo "BUILD FAILED"; exit 1; }
 cd /build || exit 1
 cp filelight_23.08.5-0ubuntu3.1_amd64.deb filelight_23.08.5-0ubuntu3.1_*.changes /out/ || exit 1
 lintian -i filelight_23.08.5-0ubuntu3.1_amd64.deb filelight_23.08.5-0ubuntu3.1.dsc > /out/lintian.txt 2>&1
-echo "lintian exit=$?" >> /out/lintian.txt
+rc=$?; echo "lintian exit=$rc" >> /out/lintian.txt
+exit "$rc"

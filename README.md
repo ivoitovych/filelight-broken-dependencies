@@ -76,8 +76,8 @@ scan UI, which is why the window appears but does nothing.
   (Ubuntu task: New; Debian task: Fix Released via Debian #1082018).
 - Launchpad #2089868 "Window opens, fails to start scan (QQmlComponent:
   Component is not ready)" (Confirmed; workaround confirmed by reporter).
-- Launchpad #2083152 "Filelight doesn't able to scan" (Kubuntu 24.10, same `QtQuick.Shapes`
-  error; Ubuntu task Fix Released).
+- Launchpad #2083152 "Filelight doesn't able to scan" (Kubuntu 24.10, the `org.kde.kcoreaddons`
+  half of the same failure; Ubuntu task Fix Released, oracular's 0ubuntu4 added that module).
 - Arch FS#76849 and Alpine aports #15795 report the same class of missing
   runtime QML dependency (kdeclarative / kcoreaddons) for filelight.
 - KDE MR utilities/filelight!161 adds Shapes/Layouts/Window to the upstream
@@ -92,8 +92,9 @@ resolute, stonking and the development series inherit it. Jammy ships the pre-QM
 ## Full dependency audit
 
 See [DEPENDENCY-AUDIT.md](./DEPENDENCY-AUDIT.md): static review of the upstream source plus
-dynamic tracing in a pristine noble container confirm the two modules below are the
-*complete* set of missing hard dependencies.
+dynamic tracing in a pristine noble container identify the two modules below as the missing
+mandatory dependencies responsible for the failure and find no further gap in any mapped
+resource or exercised code path.
 
 ## Fix
 
