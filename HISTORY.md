@@ -192,6 +192,15 @@ Chronological record of what was done in this repository. Times are local (CEST)
   return it. Until a bug supervisor adds the noble task the request is invisible in the sponsors'
   queue. HOWTO updated: ask in #ubuntu-bugs or #kubuntu-devel now, not in two weeks.
 
+### Watcher and channel
+- `scripts/watch-sru.sh`: daily anonymous check of LP #2084169 (tasks, tags, comments,
+  subscribers) and of filelight in noble, noble-proposed and noble-updates; prints a CHANGE block
+  and exits 10 when anything moved. Baseline recorded.
+- HOWTO: the documented place to ask for the noble task is the Matrix room #devel:ubuntu.com
+  (#ubuntu-bugs as fallback); one post in one place; name the 0ubuntu3.1 debdiff because the old
+  oracular debdiff is also patch-flagged. Plan B after two weeks: merge proposal against
+  `kubuntu_noble_archive`.
+
 ## Open items
 - (done automatically, see 02:35) Manual session remains available via
   `scripts/interactive-trace.sh` for a real-desktop run if wanted.
