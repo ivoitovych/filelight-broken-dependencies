@@ -1,0 +1,18 @@
+== image label: upgrade-modules-already-present
+== before:
+filelight 4:23.08.5-0ubuntu3 install ok installed
+libqt5quickshapes5 5.15.13+dfsg-1ubuntu0.1 install ok installed
+qml-module-org-kde-kcoreaddons 5.115.0-0ubuntu5 install ok installed
+qml-module-qtquick-shapes 5.15.13+dfsg-1ubuntu0.1 install ok installed
+== apt-get install -y /sru/filelight_23.08.5-0ubuntu3.1_amd64.deb
+The following packages will be upgraded:
+1 upgraded, 0 newly installed, 0 to remove and 18 not upgraded.
+== after:
+filelight 4:23.08.5-0ubuntu3.1 install ok installed
+libqt5quickshapes5 5.15.13+dfsg-1ubuntu0.1 install ok installed
+qml-module-org-kde-kcoreaddons 5.115.0-0ubuntu5 install ok installed
+qml-module-qtquick-shapes 5.15.13+dfsg-1ubuntu0.1 install ok installed
+== apt-get check:
+apt-get check exit=0
+== dpkg --audit:
+dpkg --audit exit=0

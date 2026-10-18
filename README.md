@@ -2,6 +2,19 @@
 
 Date: 2026-10-12. Host: Ubuntu 24.04.5 LTS (noble), GNOME desktop, no Plasma installed.
 
+Status (2026-10-18): fix prepared and verified, SRU not yet filed. Public repository:
+https://github.com/ivoitovych/filelight-broken-dependencies
+
+## If you are reviewing or sponsoring the SRU
+
+Read in this order; the first layer is sufficient on its own.
+
+| Layer | Files | For whom |
+|---|---|---|
+| Immediate | [`sru/SRU-TEXT.md`](./sru/SRU-TEXT.md), [`sru/filelight_23.08.5-0ubuntu3.1.debdiff`](./sru/filelight_23.08.5-0ubuntu3.1.debdiff), [`sru/verify-result.md`](./sru/verify-result.md) | sponsor, SRU team |
+| Supporting | [`DEPENDENCY-AUDIT.md`](./DEPENDENCY-AUDIT.md), [`analysis/interactive/RESULTS.md`](./analysis/interactive/RESULTS.md), `sru/build-debdiff.sh`, `container/` | reviewer checking a specific concern |
+| Archival | `analysis/`, `evidence/`, `reference/`, [`HISTORY.md`](./HISTORY.md) | anyone reproducing or extending the work |
+
 ## Symptom
 
 `filelight` (4:23.08.5-0ubuntu3, noble/universe) installs cleanly and opens a
@@ -63,13 +76,18 @@ scan UI, which is why the window appears but does nothing.
   (Ubuntu task: New; Debian task: Fix Released via Debian #1082018).
 - Launchpad #2089868 "Window opens, fails to start scan (QQmlComponent:
   Component is not ready)" (Confirmed; workaround confirmed by reporter).
+- Launchpad #2083152 "Filelight doesn't able to scan" (Kubuntu 24.10, same `QtQuick.Shapes`
+  error; Ubuntu task Fix Released).
 - Arch FS#76849 and Alpine aports #15795 report the same class of missing
   runtime QML dependency (kdeclarative / kcoreaddons) for filelight.
 - KDE MR utilities/filelight!161 adds Shapes/Layouts/Window to the upstream
   CMake dependency hints so packagers pick them up.
 
 None of the Ubuntu fixes were backported to noble; the noble package is
-still 4:23.08.5-0ubuntu3 with the incomplete Depends.
+still 4:23.08.5-0ubuntu3 with the incomplete Depends. Automatic QML dependency
+generation (`dh-sequence-qmldeps`) entered Ubuntu with questing's 4:25.08.1-0ubuntu1;
+resolute, stonking and the development series inherit it. Jammy ships the pre-QML
+4:21.12.3 and is not affected.
 
 ## Full dependency audit
 

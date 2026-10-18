@@ -1,22 +1,23 @@
 diff -Nru filelight-23.08.5/debian/changelog filelight-23.08.5/debian/changelog
 --- filelight-23.08.5/debian/changelog	2024-04-01 05:51:32.000000000 +0000
-+++ filelight-23.08.5/debian/changelog	2026-10-12 00:14:17.000000000 +0000
-@@ -1,3 +1,12 @@
++++ filelight-23.08.5/debian/changelog	2026-10-18 01:48:39.000000000 +0000
+@@ -1,3 +1,13 @@
 +filelight (4:23.08.5-0ubuntu3.1) noble; urgency=medium
 +
-+  * Add missing runtime dependencies on qml-module-org-kde-kcoreaddons and
-+    qml-module-qtquick-shapes. Without them the scan page fails to load with
-+    'module "QtQuick.Shapes" is not installed' / 'module "org.kde.kcoreaddons"
-+    is not installed' on any system without Plasma. (LP: #2084169)
++  * debian/control: add missing runtime dependencies on
++    qml-module-org-kde-kcoreaddons and qml-module-qtquick-shapes.
++    Without them the scan page never loads (module "QtQuick.Shapes"
++    is not installed) wherever these modules are not otherwise
++    installed, e.g. on Ubuntu Desktop (GNOME). (LP: #2084169)
 +
-+ -- Iaroslav Voitovych <yaroslav.voytovych@gmail.com>  Mon, 12 Oct 2026 00:14:17 +0000
++ -- Iaroslav Voitovych <yaroslav.voytovych@gmail.com>  Sun, 18 Oct 2026 01:48:39 +0000
 +
  filelight (4:23.08.5-0ubuntu3) noble; urgency=medium
  
    * No-change rebuild for CVE-2024-3094
 diff -Nru filelight-23.08.5/debian/control filelight-23.08.5/debian/control
 --- filelight-23.08.5/debian/control	2024-02-22 16:30:56.000000000 +0000
-+++ filelight-23.08.5/debian/control	2026-10-12 00:14:17.000000000 +0000
++++ filelight-23.08.5/debian/control	2026-10-18 01:48:39.000000000 +0000
 @@ -27,10 +27,12 @@
  
  Package: filelight

@@ -65,7 +65,7 @@ or linker-level check can see:
 
 | Action | Missing helper | Package | Bin |
 |---|---|---|---|
-| Open (context menu) | `xdg-open` (then browsers) | `xdg-utils` | 2, Recommends candidate; present on every Ubuntu desktop |
+| Open (context menu) | `xdg-open` (then browsers) | `xdg-utils` | 2, Recommends candidate, outside this SRU's scope; present on every Ubuntu desktop |
 | Open Terminal Here | `konsole`, `xterm` only | `konsole` / `xterm` | KF5 limitation, silent no-op on GNOME hosts without xterm; not packaging |
 | Open Handbook | `khelpcenter` | `khelpcenter` | 3 |
 | Remote URL (sftp) | KIO worker | `kio-extras` | 3, clear error dialog |
@@ -78,13 +78,22 @@ the fix adds. The conclusion below is unchanged.
 
 - Drag-and-drop onto the window was not exercised (needs a second X client); its code path
   uses only linked Qt Quick.
+- The static track used a host-side `apt-cache depends` closure approximation (1226 names,
+  Recommends included); the dynamic tracks used the pristine container's 467-package list.
+  The two agree on every resource checked.
+- Finite testing cannot prove the absence of further gaps in untested configurations; the
+  conclusion below is scoped to the mapped resources and exercised paths.
 
 ## Conclusion
 
-The total deficiency of noble's filelight deb is **exactly two missing `Depends`**:
-`qml-module-qtquick-shapes` and `qml-module-org-kde-kcoreaddons`. Both tracks agree,
-and the fixed container proves sufficiency. The icon-theme observation is real but
-cosmetic, matches Debian's own packaging choice, and should not go into a minimal SRU.
+The audit identified **two missing mandatory `Depends`** responsible for the reported
+failure, `qml-module-qtquick-shapes` and `qml-module-org-kde-kcoreaddons`, and found no
+further gap in any statically mapped resource or any exercised code path. Both tracks agree,
+and the fixed container shows that adding exactly these two restores every tested function.
+A failed runtime lookup is not by itself a packaging defect: optional helpers and fallback
+probing are the counterexamples listed above. The icon-theme observation is real but
+cosmetic, matches Debian's own packaging choice (precedent, not proof), and is outside the scope of a
+minimal SRU.
 
 Translations (54 `.mo`), the app icons (hicolor PNGs) and the handbook are all shipped
 inside the filelight deb itself and need no extra packages.

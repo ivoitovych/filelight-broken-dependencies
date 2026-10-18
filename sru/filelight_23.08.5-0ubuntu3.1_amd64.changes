@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Mon, 12 Oct 2026 00:14:17 +0000
+Date: Sun, 18 Oct 2026 01:48:39 +0000
 Source: filelight
 Binary: filelight
 Built-For-Profiles: noudeb
@@ -15,20 +15,21 @@ Launchpad-Bugs-Fixed: 2084169
 Changes:
  filelight (4:23.08.5-0ubuntu3.1) noble; urgency=medium
  .
-   * Add missing runtime dependencies on qml-module-org-kde-kcoreaddons and
-     qml-module-qtquick-shapes. Without them the scan page fails to load with
-     'module "QtQuick.Shapes" is not installed' / 'module "org.kde.kcoreaddons"
-     is not installed' on any system without Plasma. (LP: #2084169)
+   * debian/control: add missing runtime dependencies on
+     qml-module-org-kde-kcoreaddons and qml-module-qtquick-shapes.
+     Without them the scan page never loads (module "QtQuick.Shapes"
+     is not installed) wherever these modules are not otherwise
+     installed, e.g. on Ubuntu Desktop (GNOME). (LP: #2084169)
 Checksums-Sha1:
- 433162fabb6fb920b80aaed5ccbacf9be6136b84 2446962 filelight-dbgsym_23.08.5-0ubuntu3.1_amd64.ddeb
- 86e33ebff3e11a9a8b038484bc8c67d84a659351 24588 filelight_23.08.5-0ubuntu3.1_amd64.buildinfo
- a2c8b1c0485b03181e46a81d56f87ef7da869f7a 765950 filelight_23.08.5-0ubuntu3.1_amd64.deb
+ f452c4c71e9f5ef1a42bc821233de388eee6172a 2447638 filelight-dbgsym_23.08.5-0ubuntu3.1_amd64.ddeb
+ 3b9f90574eb76e9ab879950fe48ce49675db1002 24588 filelight_23.08.5-0ubuntu3.1_amd64.buildinfo
+ a7d4f91a7ee5458b5dd7a8c40ee524dd009e5d39 765982 filelight_23.08.5-0ubuntu3.1_amd64.deb
 Checksums-Sha256:
- 3082637a05515c822c7c9a57c6e331101cfe10f20b42dd3075d256c4d0d52150 2446962 filelight-dbgsym_23.08.5-0ubuntu3.1_amd64.ddeb
- 9d5de20619c330112fdada9605b00f7fffee31edeb610d0c812d6660cfeb8b0a 24588 filelight_23.08.5-0ubuntu3.1_amd64.buildinfo
- fd869ca6c28cf5bde8b2d84065d0172d6ecb8b50608e788847307dd81c328bd2 765950 filelight_23.08.5-0ubuntu3.1_amd64.deb
+ 933c4ccaa11e135ace8bccff7465c269f9246e4c0a5e65e62bf3eedd637a9ed1 2447638 filelight-dbgsym_23.08.5-0ubuntu3.1_amd64.ddeb
+ 827a582f9878080aa67557521bc0b93ab2b953a3927f4afd99d3b9838ac3a53e 24588 filelight_23.08.5-0ubuntu3.1_amd64.buildinfo
+ fcdbdc55dea13c8857db92e75015706912ebd3e7851e94450d81079ed338c418 765982 filelight_23.08.5-0ubuntu3.1_amd64.deb
 Files:
- 36e2a22b2479736652ea57c69fbc344b 2446962 debug optional filelight-dbgsym_23.08.5-0ubuntu3.1_amd64.ddeb
- d0f5395792e4f068c2ee9066afd01bf4 24588 kde optional filelight_23.08.5-0ubuntu3.1_amd64.buildinfo
- 2a3ad61b7e0d2da31a74f0690e25cf1f 765950 kde optional filelight_23.08.5-0ubuntu3.1_amd64.deb
+ cdc0d53c3967ffabcd5dc94c8ba669eb 2447638 debug optional filelight-dbgsym_23.08.5-0ubuntu3.1_amd64.ddeb
+ eae1806951681d89cc81a853652c61b1 24588 kde optional filelight_23.08.5-0ubuntu3.1_amd64.buildinfo
+ c3c058ad5f9cbb4f9d3910062fed8fb0 765982 kde optional filelight_23.08.5-0ubuntu3.1_amd64.deb
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>

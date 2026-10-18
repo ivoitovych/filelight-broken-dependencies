@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Mon, 12 Oct 2026 00:14:17 +0000
+Date: Sun, 18 Oct 2026 01:48:39 +0000
 Source: filelight
 Built-For-Profiles: noudeb
 Architecture: source
@@ -12,20 +12,21 @@ Launchpad-Bugs-Fixed: 2084169
 Changes:
  filelight (4:23.08.5-0ubuntu3.1) noble; urgency=medium
  .
-   * Add missing runtime dependencies on qml-module-org-kde-kcoreaddons and
-     qml-module-qtquick-shapes. Without them the scan page fails to load with
-     'module "QtQuick.Shapes" is not installed' / 'module "org.kde.kcoreaddons"
-     is not installed' on any system without Plasma. (LP: #2084169)
+   * debian/control: add missing runtime dependencies on
+     qml-module-org-kde-kcoreaddons and qml-module-qtquick-shapes.
+     Without them the scan page never loads (module "QtQuick.Shapes"
+     is not installed) wherever these modules are not otherwise
+     installed, e.g. on Ubuntu Desktop (GNOME). (LP: #2084169)
 Checksums-Sha1:
- 23e70fd5f3503e0d9b336858ed995a001a2ad310 1857 filelight_23.08.5-0ubuntu3.1.dsc
- 64f29b9592504dd6dd44ec48341247c0039ea344 15624 filelight_23.08.5-0ubuntu3.1.debian.tar.xz
- 92eb4412b294549e1acac84477f70463818f386b 24223 filelight_23.08.5-0ubuntu3.1_source.buildinfo
+ abb9f73e8020e8accfcf5c2912cc1da9f18816f2 1857 filelight_23.08.5-0ubuntu3.1.dsc
+ 30de0e1e011036a60fef36d50f45d95103400770 15636 filelight_23.08.5-0ubuntu3.1.debian.tar.xz
+ 73e9fa32aa1ce889fec3a2e929c1be93e7062b69 24223 filelight_23.08.5-0ubuntu3.1_source.buildinfo
 Checksums-Sha256:
- 0f914cddbd876a79c713a26f9a5acf3e1b826534443826ff6975b5323daed302 1857 filelight_23.08.5-0ubuntu3.1.dsc
- 1474f2ca93c66318436b5b834c05d18463b4465691db60564daf817821a117fa 15624 filelight_23.08.5-0ubuntu3.1.debian.tar.xz
- 139a8a5f7be9af91fc3b0ae7ea1f79480a3bd8930ced54371f7e64e30f748ea9 24223 filelight_23.08.5-0ubuntu3.1_source.buildinfo
+ a969660ba3f4b4720eae03cc5fcc40ab8035fdf1a914ebd20a4a3306574da184 1857 filelight_23.08.5-0ubuntu3.1.dsc
+ 57dd1164eca00e8547ab1e2b5f21e9df927a86177041927bda6791dff67cd2b5 15636 filelight_23.08.5-0ubuntu3.1.debian.tar.xz
+ 00be5efe41056e59bc51644aa85cf68737a6308b1bda6c97327026148969f638 24223 filelight_23.08.5-0ubuntu3.1_source.buildinfo
 Files:
- 3e4b716f988f5be03d6f70ebec42e0d9 1857 kde optional filelight_23.08.5-0ubuntu3.1.dsc
- d36967e78efddc29886c4aee1c215605 15624 kde optional filelight_23.08.5-0ubuntu3.1.debian.tar.xz
- d0a23f99f1e1a98b2066f1496305cad3 24223 kde optional filelight_23.08.5-0ubuntu3.1_source.buildinfo
+ 4abd77b719f0b73d653481a368b8a71a 1857 kde optional filelight_23.08.5-0ubuntu3.1.dsc
+ b760243e00e810a752a3f42d504c42b6 15636 kde optional filelight_23.08.5-0ubuntu3.1.debian.tar.xz
+ 6daec0ebeefbf4e6f128444c7cb51bfc 24223 kde optional filelight_23.08.5-0ubuntu3.1_source.buildinfo
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>

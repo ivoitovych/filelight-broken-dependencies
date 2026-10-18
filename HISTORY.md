@@ -87,8 +87,6 @@ Chronological record of what was done in this repository. Times are local (CEST)
   `dpkg -S` output; missing session D-Bus in the container (now passed through). Control
   result after fixes: outside-closure set is exactly the three fix-added packages.
 - `analysis/interactive/README.md`: how to run, scenario checklist, output description.
-- Noted host root filesystem at 96 % (18 GB free); Docker holds 32 GB images / 41 GB build
-  cache from unrelated work. Not pruned.
 - Started preparation of the noble SRU debdiff (4:23.08.5-0ubuntu3.1) with a dedicated build
   container, end-to-end verification against the pristine image, lintian, and SRU text
   (`sru/`).
@@ -128,13 +126,41 @@ Chronological record of what was done in this repository. Times are local (CEST)
 - Created the public repository https://github.com/ivoitovych/filelight-broken-dependencies
   and pushed `main` (remote `origin`). Replaced the repository-link placeholder in
   `sru/SRU-TEXT.md` with the URL.
-- Note on the 02:10 entry above: by 06:40 on 2026-10-12 the Docker footprint on this host was
-  2.8 GB of images and 78 MB of build cache with 118 GB free on the root filesystem; the earlier
-  figures no longer apply.
+
+## 2026-10-18
+
+### Third-party review round and resubmission prep
+- Four independent reviews of revision 11cf52e (debdiff, SRU text, audit, filing guide). All
+  four endorsed the two-line control change unchanged; every requested change concerned the
+  surrounding text, the test plan, the risk analysis and the filing procedure.
+- Rechecked the archive first: noble still at 4:23.08.5-0ubuntu3, nothing in noble-proposed or
+  noble-updates, no noble task on any bug, so no rebase was needed.
+- Debdiff rebuilt (`sru/build-debdiff.sh`): changelog shortened to under 70 columns, names
+  `debian/control`, no longer says "on any system without Plasma"; dead `sed` removed; the
+  script now exits non-zero on any failed step. Lintian clean. The rebuilt package's Depends
+  equal the archive package's plus the two modules (`sru/verify-newdeb-fields.txt`).
+- Verification extended (`sru/verify-result.md`, `sru/verify-install/`): upgrade on the pristine
+  image, upgrade where the modules already exist, fresh install on plain ubuntu:24.04, each
+  with apt transaction, `apt-get check` and `dpkg --audit`; trace rerun in the new verify image.
+- `sru/SRU-TEXT.md` rewritten: VM-based Test Plan with greppable pass/fail and pinned
+  noble-proposed, concrete failure modes in "Where problems could occur" (rebuild and shlibs,
+  typo, resolver removals, third module, Plasma no-op, per-architecture availability), corrected
+  history (oracular 0ubuntu4 already had kcoreaddons, so the 0ubuntu4.1 debdiff added only
+  Shapes), devel fixed since questing 4:25.08.1-0ubuntu1 via dh-sequence-qmldeps, LP #2083152
+  added to the cluster, suggested bug title.
+- `sru/HOWTO-FILE.md` rewritten: description not comment, retitle, nomination via sponsor, no
+  Triaged/importance by the contributor, duplicate handling, five-line comment template, then
+  verification in noble-proposed, tag swap, aging and post-release monitoring.
+- Audit wording qualified: "two missing mandatory Depends for the reported failure, no further
+  gap found in any mapped resource or exercised path" instead of "exactly two"; "outside this
+  SRU's scope" instead of "not SRU material"; kdeglobals TerminalApplication workaround now
+  sourced to KIO's `KTerminalLauncherJob` and marked as not exercised.
+- README: status line, three-layer reading guide for sponsors, LP #2083152, first qmldeps
+  version. Host-disk and Docker notes removed from this log.
 
 ## Open items
 - (done automatically, see 02:35) Manual session remains available via
   `scripts/interactive-trace.sh` for a real-desktop run if wanted.
-- File the SRU (needs a Launchpad account): add a noble task to LP #2084169, paste
-  `sru/SRU-TEXT.md`, attach `sru/filelight_23.08.5-0ubuntu3.1.debdiff`, subscribe
-  ubuntu-sponsors. See `sru/HOWTO-FILE.md`.
+- File the SRU on LP #2084169 following `sru/HOWTO-FILE.md` (retitle, description from
+  `sru/SRU-TEXT.md`, attach `sru/filelight_23.08.5-0ubuntu3.1.debdiff` as patch, subscribe
+  ubuntu-sponsors), then verify from noble-proposed.
